@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "monkeyc",
+			"device": "fr955",
+			"simulatorBuild": true,
+			"folderPath": "/Users/ai/Workspace/WatchFaces/XLWatchFace955",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "monkeyc: fr955"
+		}
+	]
+}
