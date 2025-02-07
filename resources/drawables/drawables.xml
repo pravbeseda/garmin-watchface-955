@@ -1,3 +1,5 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="footsteps2" filename="footsteps.png" />
+    <bitmap id="footsteps" filename="footsteps.svg" scaleX="16" scaleY="16" />
 </drawables>

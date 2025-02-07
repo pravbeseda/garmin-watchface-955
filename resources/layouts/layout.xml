@@ -1,18 +1,60 @@
 <layout id="WatchFace">
     <drawable class="Background" />
     <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    
     <label 
         id="BatteryLabel" 
         x="center" 
-        y="bottom" 
+        y="220" 
         font="Graphics.FONT_SMALL" 
         justification="Graphics.TEXT_JUSTIFY_CENTER" 
         color="Graphics.COLOR_BLUE" />
+    
     <label 
         id="DayLabel" 
         x="center" 
         y="80"
         font="Graphics.FONT_SMALL" 
         justification="Graphics.TEXT_JUSTIFY_CENTER" 
-        color="Graphics.COLOR_BLUE" />
+        color="Graphics.COLOR_DK_BLUE" />
+
+    <label 
+        id="StepsLabel" 
+        x="70" 
+        y="170"
+        font="Graphics.FONT_SMALL" 
+        justification="Graphics.TEXT_JUSTIFY_CENTER" 
+        color="Graphics.COLOR_BLACK" />
+
+    <label 
+        id="DistanceLabel" 
+        x="170" 
+        y="170"
+        font="Graphics.FONT_SMALL" 
+        justification="Graphics.TEXT_JUSTIFY_CENTER" 
+        color="Graphics.COLOR_BLACK" />
+
+    <label 
+        id="BodyBatteryLabel" 
+        x="100" 
+        y="20"
+        font="Graphics.FONT_SMALL" 
+        justification="Graphics.TEXT_JUSTIFY_CENTER" 
+        color="Graphics.COLOR_BLACK" />
+
+    <label 
+        id="StressLabel" 
+        x="180" 
+        y="20"
+        font="Graphics.FONT_SMALL" 
+        justification="Graphics.TEXT_JUSTIFY_CENTER" 
+        color="Graphics.COLOR_BLACK" />
+
+    <label 
+        id="WeatherLabel" 
+        x="220" 
+        y="center"
+        font="Graphics.FONT_SMALL" 
+        justification="Graphics.TEXT_JUSTIFY_CENTER" 
+        color="Graphics.COLOR_BLACK" />
 </layout>
