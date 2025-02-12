@@ -6,32 +6,35 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
-        (:initialized) var footsteps2 as ResourceId;
         (:initialized) var footsteps as ResourceId;
+        (:initialized) var battery as ResourceId;
+        (:initialized) var person as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
     } // Drawables
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_40583095183144135160 = new Background();
+            var rez_cmp_local_custom_drawable_38384953414236493521 = new Background();
 
-            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(260 * 0.5), :locY=>((260 - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+            var rez_cmp_local_text_BatteryLabel = new WatchUi.Text({:identifier=>"BatteryLabel", :color=>Graphics.COLOR_BLACK, :locX=>100, :locY=>220, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
-            var rez_cmp_local_text_BatteryLabel = new WatchUi.Text({:identifier=>"BatteryLabel", :color=>Graphics.COLOR_BLUE, :locX=>(260 * 0.5), :locY=>220, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+            var rez_cmp_local_text_BatteryDays = new WatchUi.Text({:identifier=>"BatteryDays", :color=>Graphics.COLOR_BLACK, :locX=>175, :locY=>220, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
-            var rez_cmp_local_text_DayLabel = new WatchUi.Text({:identifier=>"DayLabel", :color=>Graphics.COLOR_DK_BLUE, :locX=>(260 * 0.5), :locY=>80, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+            var rez_cmp_local_text_DayLabel = new WatchUi.Text({:identifier=>"DayLabel", :color=>Graphics.COLOR_DK_BLUE, :locX=>80, :locY=>70, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
-            var rez_cmp_local_text_StepsLabel = new WatchUi.Text({:identifier=>"StepsLabel", :color=>Graphics.COLOR_BLACK, :locX=>70, :locY=>170, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLACK, :locX=>80, :locY=>100, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
 
-            var rez_cmp_local_text_DistanceLabel = new WatchUi.Text({:identifier=>"DistanceLabel", :color=>Graphics.COLOR_BLACK, :locX=>170, :locY=>170, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+            var rez_cmp_local_text_StepsLabel = new WatchUi.Text({:identifier=>"StepsLabel", :color=>Graphics.COLOR_BLACK, :locX=>65, :locY=>173, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
-            var rez_cmp_local_text_StressLabel = new WatchUi.Text({:identifier=>"StressLabel", :color=>Graphics.COLOR_BLACK, :locX=>(260 * 0.5), :locY=>20, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+            var rez_cmp_local_text_DistanceLabel = new WatchUi.Text({:identifier=>"DistanceLabel", :color=>Graphics.COLOR_BLACK, :locX=>190, :locY=>173, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
-            var rez_cmp_local_text_WeatherLabel = new WatchUi.Text({:identifier=>"WeatherLabel", :color=>Graphics.COLOR_BLACK, :locX=>220, :locY=>((260 - dc.getFontHeight(Graphics.FONT_SMALL)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+            var rez_cmp_local_text_BodyBatteryLabel = new WatchUi.Text({:identifier=>"BodyBatteryLabel", :color=>Graphics.COLOR_BLACK, :locX=>90, :locY=>15, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
-            var rez_cmp_local_text_BodyBatteryLabel = new WatchUi.Text({:identifier=>"BodyBatteryLabel", :color=>Graphics.COLOR_BLACK, :locX=>40, :locY=>((260 - dc.getFontHeight(Graphics.FONT_SMALL)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+            var rez_cmp_local_text_StressLabel = new WatchUi.Text({:identifier=>"StressLabel", :color=>Graphics.COLOR_BLACK, :locX=>176, :locY=>15, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
-            return [rez_cmp_local_custom_drawable_40583095183144135160, rez_cmp_local_text_TimeLabel, rez_cmp_local_text_BatteryLabel, rez_cmp_local_text_DayLabel, rez_cmp_local_text_StepsLabel, rez_cmp_local_text_DistanceLabel, rez_cmp_local_text_StressLabel, rez_cmp_local_text_WeatherLabel, rez_cmp_local_text_BodyBatteryLabel] as Array<WatchUi.Drawable>;
+            var rez_cmp_local_text_WeatherLabel = new WatchUi.Text({:identifier=>"WeatherLabel", :color=>Graphics.COLOR_BLACK, :locX=>200, :locY=>100, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            return [rez_cmp_local_custom_drawable_38384953414236493521, rez_cmp_local_text_BatteryLabel, rez_cmp_local_text_BatteryDays, rez_cmp_local_text_DayLabel, rez_cmp_local_text_TimeLabel, rez_cmp_local_text_StepsLabel, rez_cmp_local_text_DistanceLabel, rez_cmp_local_text_BodyBatteryLabel, rez_cmp_local_text_StressLabel, rez_cmp_local_text_WeatherLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

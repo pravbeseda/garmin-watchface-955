@@ -25,19 +25,23 @@ class XLWatchFace955View extends WatchUi.WatchFace{
     }
     [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 11; @position = 8; ]
     var imageFootsteps;
-    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 13; ]
+    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 12; @position = 8; ]
+    var batteryIcon;
+    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 13; @position = 8; ]
+    var personIcon;
+    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 15; ]
     function initialize() as Void {
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_13_26_15_4_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 14 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_15_26_17_4_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 16 8 ]
         %tmp.2 = getv ? :WatchFace;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_13_26_15_4_stop:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_15_26_17_4_stop:
     }
-    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 18; ]
+    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 20; ]
     function onLayout(dc as Dc) as Void {
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_18_40_21_4_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 19 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_20_40_25_4_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 21 8 ]
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv function %tmp.1 :loadResource;
         %tmp.4 = getv ? :Rez;
@@ -46,97 +50,115 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_18_40
         %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
         %tmp.8 = as %tmp.7 BitmapResource;
         putv self :imageFootsteps %tmp.8;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 20 8 ]
-        %tmp.9 = self;
-        %tmp.10 = getv function %tmp.9 :setLayout;
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 22 8 ]
+        %tmp.9 = getm $.Toybox.Application;
+        %tmp.10 = getv function %tmp.9 :loadResource;
         %tmp.12 = getv ? :Rez;
-        %tmp.13 = getv %tmp.12 :Layouts;
-        %tmp.14 = getv function %tmp.13 :WatchFace;
-        %tmp.16 = lgetv %dc;
-        %tmp.17 = invoke %tmp.13 %tmp.14(%tmp.16);
-        invoke %tmp.9 %tmp.10(%tmp.17);
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_18_40_21_4_stop:
-    }
-    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 26; ]
-    function onShow() as Void {
+        %tmp.13 = getv %tmp.12 :Drawables;
+        %tmp.14 = getv %tmp.13 :battery;
+        %tmp.15 = invoke %tmp.9 %tmp.10(%tmp.14);
+        %tmp.16 = as %tmp.15 BitmapResource;
+        putv self :batteryIcon %tmp.16;
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 23 8 ]
+        %tmp.17 = getm $.Toybox.Application;
+        %tmp.18 = getv function %tmp.17 :loadResource;
+        %tmp.20 = getv ? :Rez;
+        %tmp.21 = getv %tmp.20 :Drawables;
+        %tmp.22 = getv %tmp.21 :person;
+        %tmp.23 = invoke %tmp.17 %tmp.18(%tmp.22);
+        %tmp.24 = as %tmp.23 BitmapResource;
+        putv self :personIcon %tmp.24;
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 24 8 ]
+        %tmp.25 = self;
+        %tmp.26 = getv function %tmp.25 :setLayout;
+        %tmp.28 = getv ? :Rez;
+        %tmp.29 = getv %tmp.28 :Layouts;
+        %tmp.30 = getv function %tmp.29 :WatchFace;
+        %tmp.32 = lgetv %dc;
+        %tmp.33 = invoke %tmp.29 %tmp.30(%tmp.32);
+        invoke %tmp.25 %tmp.26(%tmp.33);
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_20_40_25_4_stop:
     }
     [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 30; ]
+    function onShow() as Void {
+    }
+    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 34; ]
     function onUpdate(dc as Dc) as Void {
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 32 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 36 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
         %timeFormat.1 = local;
         %tmp.1 = "$1$:$2$";
         lputv %timeFormat.1 %tmp.1;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 33 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 37 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
         %clockTime.2 = local;
         %tmp.2 = getm $.Toybox.System;
         %tmp.3 = getv function %tmp.2 :getClockTime;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %clockTime.2 %tmp.4;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 34 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 38 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
         %hours.3 = local;
         %tmp.5 = lgetv %clockTime.2;
         %tmp.6 = getv %tmp.5 :hour;
         lputv %hours.3 %tmp.6;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 36 8 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_36_8_45_8_if_stmt:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 40 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_8_49_8_if_stmt:
         %tmp.7 = getm $.Toybox.Application;
         %tmp.8 = getv %tmp.7 :Properties;
         %tmp.9 = getv function %tmp.8 :getValue;
         %tmp.10 = "UseMilitaryFormat";
         %tmp.11 = invoke %tmp.8 %tmp.9(%tmp.10);
-        bf %tmp.11 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_36_8_45_8_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_36_8_45_8_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_36_66_39_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 37 16 ]
+        bf %tmp.11 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_8_49_8_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_8_49_8_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_66_43_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 41 16 ]
         %tmp.12 = "$1$:$2$";
         lputv %timeFormat.1 %tmp.12;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 38 16 ]
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 42 16 ]
         %tmp.13 = lgetv %hours.3;
         %tmp.14 = getv function %tmp.13 :format;
         %tmp.15 = "%02d";
         %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
         lputv %hours.3 %tmp.16;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_36_66_39_8_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_36_8_45_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_36_8_45_8_if_false:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_39_15_45_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 40 12 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_12_44_12_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_66_43_8_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_8_49_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_8_49_8_if_false:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_43_15_49_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 44 12 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_44_12_48_12_if_stmt:
         %tmp.17 = getm $.Toybox.System;
         %tmp.18 = getv function %tmp.17 :getDeviceSettings;
         %tmp.19 = invoke %tmp.17 %tmp.18();
         %tmp.20 = getv %tmp.19 :is24Hour;
         %tmp.21 = not %tmp.20;
-        bf %tmp.21 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_12_44_12_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_12_44_12_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_54_44_12_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 41 16 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_41_16_43_16_if_stmt:
+        bf %tmp.21 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_44_12_48_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_44_12_48_12_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_44_54_48_12_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 45 16 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_45_16_47_16_if_stmt:
         %tmp.23 = lgetv %hours.3;
         %tmp.24 = 12;
         %tmp.25 = gt %tmp.23 %tmp.24;
-        bf %tmp.25 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_41_16_43_16_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_41_16_43_16_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_41_32_43_16_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 42 20 ]
+        bf %tmp.25 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_45_16_47_16_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_45_16_47_16_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_45_32_47_16_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 46 20 ]
         %tmp.27 = lgetv %hours.3;
         %tmp.28 = 12;
         %tmp.29 = sub %tmp.27 %tmp.28;
         lputv %hours.3 %tmp.29;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_41_32_43_16_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_41_16_43_16_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_41_16_43_16_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_54_44_12_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_12_44_12_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_12_44_12_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_39_15_45_8_stop:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_36_8_45_8_if_end:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 47 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_45_32_47_16_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_45_16_47_16_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_45_16_47_16_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_44_54_48_12_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_44_12_48_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_44_12_48_12_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_43_15_49_8_stop:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_40_8_49_8_if_end:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 51 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
         %timeString.4 = local;
         %tmp.30 = getm $.Toybox.Lang;
         %tmp.31 = getv function %tmp.30 :format;
@@ -154,8 +176,8 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_36_8_
         %tmp.45 = aputv %tmp.44 1 %tmp.43;
         %tmp.46 = invoke %tmp.30 %tmp.31(%tmp.33, %tmp.45);
         lputv %timeString.4 %tmp.46;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 50 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 54 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
         %time.5 = local;
         %tmp.48 = getv ? :View;
         %tmp.49 = getv function %tmp.48 :findDrawableById;
@@ -163,7 +185,7 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_36_8_
         %tmp.51 = invoke %tmp.48 %tmp.49(%tmp.50);
         %tmp.52 = as %tmp.51 Text;
         lputv %time.5 %tmp.52;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 51 8 ]
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 55 8 ]
         %tmp.53 = lgetv %time.5;
         %tmp.54 = getv function %tmp.53 :setColor;
         %tmp.55 = getm $.Toybox.Application;
@@ -173,35 +195,35 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_36_8_
         %tmp.59 = invoke %tmp.56 %tmp.57(%tmp.58);
         %tmp.60 = as %tmp.59 Number;
         invoke %tmp.53 %tmp.54(%tmp.60);
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 52 8 ]
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 56 8 ]
         %tmp.61 = lgetv %time.5;
         %tmp.62 = getv function %tmp.61 :setText;
         %tmp.64 = lgetv %timeString.4;
         invoke %tmp.61 %tmp.62(%tmp.64);
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 53 8 ]
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 57 8 ]
         %tmp.65 = lgetv %time.5;
         %tmp.66 = getv function %tmp.65 :setFont;
         %tmp.67 = getm $.Toybox.Graphics;
         %tmp.68 = getv %tmp.67 :FONT_NUMBER_MEDIUM;
         invoke %tmp.65 %tmp.66(%tmp.68);
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 56 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 60 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
         %batteryPercent.6 = local;
         %tmp.69 = getm $.Toybox.System;
         %tmp.70 = getv function %tmp.69 :getSystemStats;
         %tmp.71 = invoke %tmp.69 %tmp.70();
         %tmp.72 = getv %tmp.71 :battery;
         lputv %batteryPercent.6 %tmp.72;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 57 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 61 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
         %batteryInDays.7 = local;
         %tmp.73 = getm $.Toybox.System;
         %tmp.74 = getv function %tmp.73 :getSystemStats;
         %tmp.75 = invoke %tmp.73 %tmp.74();
         %tmp.76 = getv %tmp.75 :batteryInDays;
         lputv %batteryInDays.7 %tmp.76;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 58 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 62 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
         %battery.8 = local;
         %tmp.78 = getv ? :View;
         %tmp.79 = getv function %tmp.78 :findDrawableById;
@@ -209,295 +231,377 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_36_8_
         %tmp.81 = invoke %tmp.78 %tmp.79(%tmp.80);
         %tmp.82 = as %tmp.81 Text;
         lputv %battery.8 %tmp.82;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 59 8 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_59_8_63_8_if_stmt:
-        %tmp.84 = lgetv %batteryPercent.6;
-        %tmp.85 = 20;
-        %tmp.86 = lt %tmp.84 %tmp.85;
-        bf %tmp.86 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_59_8_63_8_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_59_8_63_8_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_59_33_61_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 60 12 ]
-        %tmp.87 = lgetv %battery.8;
-        %tmp.88 = getv function %tmp.87 :setColor;
-        %tmp.89 = 0xFF0000;
-        invoke %tmp.87 %tmp.88(%tmp.89);
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_59_33_61_8_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_59_8_63_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_59_8_63_8_if_false:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_61_15_63_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 62 12 ]
-        %tmp.90 = lgetv %battery.8;
-        %tmp.91 = getv function %tmp.90 :setColor;
-        %tmp.92 = getm $.Toybox.Application;
-        %tmp.93 = getv %tmp.92 :Properties;
-        %tmp.94 = getv function %tmp.93 :getValue;
-        %tmp.95 = "ForegroundColor";
-        %tmp.96 = invoke %tmp.93 %tmp.94(%tmp.95);
-        %tmp.97 = as %tmp.96 Number;
-        invoke %tmp.90 %tmp.91(%tmp.97);
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_61_15_63_8_stop:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_59_8_63_8_if_end:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 63 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
+        %batteryDays.9 = local;
+        %tmp.84 = getv ? :View;
+        %tmp.85 = getv function %tmp.84 :findDrawableById;
+        %tmp.86 = "BatteryDays";
+        %tmp.87 = invoke %tmp.84 %tmp.85(%tmp.86);
+        %tmp.88 = as %tmp.87 Text;
+        lputv %batteryDays.9 %tmp.88;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 64 8 ]
-        %tmp.98 = lgetv %battery.8;
-        %tmp.99 = getv function %tmp.98 :setText;
-        %tmp.100 = lgetv %batteryPercent.6;
-        %tmp.101 = getv function %tmp.100 :format;
-        %tmp.102 = "%d";
-        %tmp.103 = invoke %tmp.100 %tmp.101(%tmp.102);
-        %tmp.104 = "% (";
-        %tmp.105 = add %tmp.103 %tmp.104;
-        %tmp.106 = lgetv %batteryInDays.7;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_64_8_68_8_if_stmt:
+        %tmp.90 = lgetv %batteryPercent.6;
+        %tmp.91 = 20;
+        %tmp.92 = lt %tmp.90 %tmp.91;
+        bf %tmp.92 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_64_8_68_8_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_64_8_68_8_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_64_33_66_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 65 12 ]
+        %tmp.93 = lgetv %battery.8;
+        %tmp.94 = getv function %tmp.93 :setColor;
+        %tmp.95 = 0xFF0000;
+        invoke %tmp.93 %tmp.94(%tmp.95);
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_64_33_66_8_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_64_8_68_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_64_8_68_8_if_false:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_66_15_68_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 67 12 ]
+        %tmp.96 = lgetv %battery.8;
+        %tmp.97 = getv function %tmp.96 :setColor;
+        %tmp.98 = getm $.Toybox.Application;
+        %tmp.99 = getv %tmp.98 :Properties;
+        %tmp.100 = getv function %tmp.99 :getValue;
+        %tmp.101 = "ForegroundColor";
+        %tmp.102 = invoke %tmp.99 %tmp.100(%tmp.101);
+        %tmp.103 = as %tmp.102 Number;
+        invoke %tmp.96 %tmp.97(%tmp.103);
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_66_15_68_8_stop:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_64_8_68_8_if_end:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 69 8 ]
+        %tmp.104 = lgetv %battery.8;
+        %tmp.105 = getv function %tmp.104 :setText;
+        %tmp.106 = lgetv %batteryPercent.6;
         %tmp.107 = getv function %tmp.106 :format;
         %tmp.108 = "%d";
         %tmp.109 = invoke %tmp.106 %tmp.107(%tmp.108);
-        %tmp.110 = add %tmp.105 %tmp.109;
-        %tmp.111 = "d)";
-        %tmp.112 = add %tmp.110 %tmp.111;
-        invoke %tmp.98 %tmp.99(%tmp.112);
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 67 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
-        %today.9 = local;
-        %tmp.113 = getm $.Toybox.Time.Gregorian;
-        %tmp.114 = getv function %tmp.113 :info;
-        %tmp.116 = getv ? :Time;
-        %tmp.117 = getv function %tmp.116 :now;
-        %tmp.118 = invoke %tmp.116 %tmp.117();
-        %tmp.120 = getv ? :Time;
-        %tmp.121 = getv %tmp.120 :FORMAT_MEDIUM;
-        %tmp.122 = invoke %tmp.113 %tmp.114(%tmp.118, %tmp.121);
-        lputv %today.9 %tmp.122;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 68 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
-        %dateString.10 = local;
-        %tmp.123 = getm $.Toybox.Lang;
-        %tmp.124 = getv function %tmp.123 :format;
-        %tmp.125 = "$1$, $2$ $3$";
-        %tmp.126 = newa 3;
-        %tmp.127 = lgetv %today.9;
-        %tmp.128 = getv %tmp.127 :day_of_week;
-        %tmp.129 = dup %tmp.126;
-        %tmp.130 = aputv %tmp.129 0 %tmp.128;
-        %tmp.131 = lgetv %today.9;
-        %tmp.132 = getv %tmp.131 :day;
-        %tmp.133 = dup %tmp.130;
-        %tmp.134 = aputv %tmp.133 1 %tmp.132;
-        %tmp.135 = lgetv %today.9;
-        %tmp.136 = getv %tmp.135 :month;
-        %tmp.137 = dup %tmp.134;
-        %tmp.138 = aputv %tmp.137 2 %tmp.136;
-        %tmp.139 = invoke %tmp.123 %tmp.124(%tmp.125, %tmp.138);
-        lputv %dateString.10 %tmp.139;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 75 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
-        %dayLabel.11 = local;
-        %tmp.141 = getv ? :View;
-        %tmp.142 = getv function %tmp.141 :findDrawableById;
-        %tmp.143 = "DayLabel";
-        %tmp.144 = invoke %tmp.141 %tmp.142(%tmp.143);
-        %tmp.145 = as %tmp.144 Text;
-        lputv %dayLabel.11 %tmp.145;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 76 8 ]
-        %tmp.146 = lgetv %dayLabel.11;
-        %tmp.147 = getv function %tmp.146 :setText;
-        %tmp.149 = lgetv %dateString.10;
-        invoke %tmp.146 %tmp.147(%tmp.149);
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 78 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
-        %activity.12 = local;
-        %tmp.150 = getm $.Toybox.ActivityMonitor;
-        %tmp.151 = getv function %tmp.150 :getInfo;
-        %tmp.152 = invoke %tmp.150 %tmp.151();
-        lputv %activity.12 %tmp.152;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 79 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
-        %stepsLabel.13 = local;
-        %tmp.154 = getv ? :View;
-        %tmp.155 = getv function %tmp.154 :findDrawableById;
-        %tmp.156 = "StepsLabel";
-        %tmp.157 = invoke %tmp.154 %tmp.155(%tmp.156);
-        %tmp.158 = as %tmp.157 Text;
-        lputv %stepsLabel.13 %tmp.158;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 80 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
-        %stepsString.14 = local;
-        %tmp.159 = getm $.Toybox.Lang;
-        %tmp.160 = getv function %tmp.159 :format;
-        %tmp.161 = "$1$";
-        %tmp.162 = newa 1;
-        %tmp.163 = lgetv %activity.12;
-        %tmp.164 = getv %tmp.163 :steps;
-        %tmp.165 = dup %tmp.162;
-        %tmp.166 = aputv %tmp.165 0 %tmp.164;
-        %tmp.167 = invoke %tmp.159 %tmp.160(%tmp.161, %tmp.166);
-        lputv %stepsString.14 %tmp.167;
+        %tmp.110 = "%";
+        %tmp.111 = add %tmp.109 %tmp.110;
+        invoke %tmp.104 %tmp.105(%tmp.111);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 70 8 ]
+        %tmp.112 = lgetv %batteryDays.9;
+        %tmp.113 = getv function %tmp.112 :setText;
+        %tmp.114 = lgetv %batteryInDays.7;
+        %tmp.115 = getv function %tmp.114 :format;
+        %tmp.116 = "%d";
+        %tmp.117 = invoke %tmp.114 %tmp.115(%tmp.116);
+        %tmp.118 = "d";
+        %tmp.119 = add %tmp.117 %tmp.118;
+        invoke %tmp.112 %tmp.113(%tmp.119);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 73 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
+        %today.10 = local;
+        %tmp.120 = getm $.Toybox.Time.Gregorian;
+        %tmp.121 = getv function %tmp.120 :info;
+        %tmp.123 = getv ? :Time;
+        %tmp.124 = getv function %tmp.123 :now;
+        %tmp.125 = invoke %tmp.123 %tmp.124();
+        %tmp.127 = getv ? :Time;
+        %tmp.128 = getv %tmp.127 :FORMAT_MEDIUM;
+        %tmp.129 = invoke %tmp.120 %tmp.121(%tmp.125, %tmp.128);
+        lputv %today.10 %tmp.129;
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 74 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
+        %dateString.11 = local;
+        %tmp.130 = getm $.Toybox.Lang;
+        %tmp.131 = getv function %tmp.130 :format;
+        %tmp.132 = "$1$, $2$ $3$";
+        %tmp.133 = newa 3;
+        %tmp.134 = lgetv %today.10;
+        %tmp.135 = getv %tmp.134 :day_of_week;
+        %tmp.136 = dup %tmp.133;
+        %tmp.137 = aputv %tmp.136 0 %tmp.135;
+        %tmp.138 = lgetv %today.10;
+        %tmp.139 = getv %tmp.138 :day;
+        %tmp.140 = dup %tmp.137;
+        %tmp.141 = aputv %tmp.140 1 %tmp.139;
+        %tmp.142 = lgetv %today.10;
+        %tmp.143 = getv %tmp.142 :month;
+        %tmp.144 = dup %tmp.141;
+        %tmp.145 = aputv %tmp.144 2 %tmp.143;
+        %tmp.146 = invoke %tmp.130 %tmp.131(%tmp.132, %tmp.145);
+        lputv %dateString.11 %tmp.146;
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 81 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
+        %dayLabel.12 = local;
+        %tmp.148 = getv ? :View;
+        %tmp.149 = getv function %tmp.148 :findDrawableById;
+        %tmp.150 = "DayLabel";
+        %tmp.151 = invoke %tmp.148 %tmp.149(%tmp.150);
+        %tmp.152 = as %tmp.151 Text;
+        lputv %dayLabel.12 %tmp.152;
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 82 8 ]
+        %tmp.153 = lgetv %dayLabel.12;
+        %tmp.154 = getv function %tmp.153 :setText;
+        %tmp.156 = lgetv %dateString.11;
+        invoke %tmp.153 %tmp.154(%tmp.156);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 84 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
+        %activity.13 = local;
+        %tmp.157 = getm $.Toybox.ActivityMonitor;
+        %tmp.158 = getv function %tmp.157 :getInfo;
+        %tmp.159 = invoke %tmp.157 %tmp.158();
+        lputv %activity.13 %tmp.159;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 85 8 ]
-        %tmp.168 = lgetv %stepsLabel.13;
-        %tmp.169 = getv function %tmp.168 :setText;
-        %tmp.171 = lgetv %stepsString.14;
-        invoke %tmp.168 %tmp.169(%tmp.171);
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
+        %stepsLabel.14 = local;
+        %tmp.161 = getv ? :View;
+        %tmp.162 = getv function %tmp.161 :findDrawableById;
+        %tmp.163 = "StepsLabel";
+        %tmp.164 = invoke %tmp.161 %tmp.162(%tmp.163);
+        %tmp.165 = as %tmp.164 Text;
+        lputv %stepsLabel.14 %tmp.165;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 86 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
-        %distanceLabel.15 = local;
-        %tmp.173 = getv ? :View;
-        %tmp.174 = getv function %tmp.173 :findDrawableById;
-        %tmp.175 = "DistanceLabel";
-        %tmp.176 = invoke %tmp.173 %tmp.174(%tmp.175);
-        %tmp.177 = as %tmp.176 Text;
-        lputv %distanceLabel.15 %tmp.177;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 87 8 ]
-        %tmp.178 = lgetv %distanceLabel.15;
-        %tmp.179 = getv function %tmp.178 :setText;
-        %tmp.180 = lgetv %activity.12;
-        %tmp.181 = getv %tmp.180 :distance;
-        %tmp.182 = 100000.0;
-        %tmp.183 = div %tmp.181 %tmp.182;
-        %tmp.184 = getv function %tmp.183 :format;
-        %tmp.185 = "%.2f";
-        %tmp.186 = invoke %tmp.183 %tmp.184(%tmp.185);
-        %tmp.187 = " km";
-        %tmp.188 = add %tmp.186 %tmp.187;
-        invoke %tmp.178 %tmp.179(%tmp.188);
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 89 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
-        %stressScore.16 = local;
-        %tmp.189 = lgetv %activity.12;
-        %tmp.190 = getv %tmp.189 :stressScore;
-        lputv %stressScore.16 %tmp.190;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 90 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
-        %stressLabel.17 = local;
-        %tmp.192 = getv ? :View;
-        %tmp.193 = getv function %tmp.192 :findDrawableById;
-        %tmp.194 = "StressLabel";
-        %tmp.195 = invoke %tmp.192 %tmp.193(%tmp.194);
-        %tmp.196 = as %tmp.195 Text;
-        lputv %stressLabel.17 %tmp.196;
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
+        %stepsString.15 = local;
+        %tmp.166 = getm $.Toybox.Lang;
+        %tmp.167 = getv function %tmp.166 :format;
+        %tmp.168 = "$1$";
+        %tmp.169 = newa 1;
+        %tmp.170 = lgetv %activity.13;
+        %tmp.171 = getv %tmp.170 :steps;
+        %tmp.172 = dup %tmp.169;
+        %tmp.173 = aputv %tmp.172 0 %tmp.171;
+        %tmp.174 = invoke %tmp.166 %tmp.167(%tmp.168, %tmp.173);
+        lputv %stepsString.15 %tmp.174;
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 91 8 ]
+        %tmp.175 = lgetv %stepsLabel.14;
+        %tmp.176 = getv function %tmp.175 :setText;
+        %tmp.178 = lgetv %stepsString.15;
+        invoke %tmp.175 %tmp.176(%tmp.178);
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 92 8 ]
-        %tmp.197 = lgetv %stressLabel.17;
-        %tmp.198 = getv function %tmp.197 :setText;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_92_29_92_65_begin:
-        %tmp.200 = lgetv %stressScore.16;
-        %tmp.201 = null;
-        %tmp.202 = ne %tmp.200 %tmp.201;
-        bf %tmp.202 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_92_29_92_65_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_92_29_92_65_true:
-        %tmp.204 = lgetv %stressScore.16;
-        %tmp.205 = as %tmp.204 { (!Null) };
-        push %tmp.205;
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_92_29_92_65_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_92_29_92_65_false:
-        %tmp.206 = "-";
-        push %tmp.206;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_92_29_92_65_end:
-        %tmp.207 = phi [%tmp.202 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_92_29_92_65_begin] [%tmp.205 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_92_29_92_65_true] [%tmp.206 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_92_29_92_65_false] [%tmp.207 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_92_29_92_65_end];
-        %tmp.208 = " stress";
-        %tmp.209 = add %tmp.207 %tmp.208;
-        invoke %tmp.197 %tmp.198(%tmp.209);
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 94 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
-        %bodyBattery.18 = local;
-        %tmp.210 = self;
-        %tmp.211 = getv function %tmp.210 :getBodyBattery;
-        %tmp.212 = invoke %tmp.210 %tmp.211();
-        lputv %bodyBattery.18 %tmp.212;
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
+        %distanceLabel.16 = local;
+        %tmp.180 = getv ? :View;
+        %tmp.181 = getv function %tmp.180 :findDrawableById;
+        %tmp.182 = "DistanceLabel";
+        %tmp.183 = invoke %tmp.180 %tmp.181(%tmp.182);
+        %tmp.184 = as %tmp.183 Text;
+        lputv %distanceLabel.16 %tmp.184;
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 93 8 ]
+        %tmp.185 = lgetv %distanceLabel.16;
+        %tmp.186 = getv function %tmp.185 :setText;
+        %tmp.187 = lgetv %activity.13;
+        %tmp.188 = getv %tmp.187 :distance;
+        %tmp.189 = 100000.0;
+        %tmp.190 = div %tmp.188 %tmp.189;
+        %tmp.191 = getv function %tmp.190 :format;
+        %tmp.192 = "%.2f";
+        %tmp.193 = invoke %tmp.190 %tmp.191(%tmp.192);
+        %tmp.194 = " km";
+        %tmp.195 = add %tmp.193 %tmp.194;
+        invoke %tmp.185 %tmp.186(%tmp.195);
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 95 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
-        %bodyBatteryLabel.19 = local;
-        %tmp.214 = getv ? :View;
-        %tmp.215 = getv function %tmp.214 :findDrawableById;
-        %tmp.216 = "BodyBatteryLabel";
-        %tmp.217 = invoke %tmp.214 %tmp.215(%tmp.216);
-        %tmp.218 = as %tmp.217 Text;
-        lputv %bodyBatteryLabel.19 %tmp.218;
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
+        %stressScore.17 = local;
+        %tmp.196 = lgetv %activity.13;
+        %tmp.197 = getv %tmp.196 :stressScore;
+        lputv %stressScore.17 %tmp.197;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 96 8 ]
-        %tmp.219 = lgetv %bodyBatteryLabel.19;
-        %tmp.220 = getv function %tmp.219 :setText;
-        %tmp.222 = lgetv %bodyBattery.18;
-        invoke %tmp.219 %tmp.220(%tmp.222);
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 99 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop" ]
-        %currentWeather.20 = local;
-        %tmp.223 = getm $.Toybox.Weather;
-        %tmp.224 = getv function %tmp.223 :getCurrentConditions;
-        %tmp.225 = invoke %tmp.223 %tmp.224();
-        lputv %currentWeather.20 %tmp.225;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 100 8 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_100_8_103_8_if_stmt:
-        %tmp.227 = lgetv %currentWeather.20;
-        %tmp.228 = null;
-        %tmp.229 = ne %tmp.227 %tmp.228;
-        bf %tmp.229 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_100_8_103_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_100_8_103_8_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_100_36_103_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 101 12 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_100_36_103_8_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_100_36_103_8_stop" ]
-        %weatherLabel.21 = local;
-        %tmp.231 = getv ? :View;
-        %tmp.232 = getv function %tmp.231 :findDrawableById;
-        %tmp.233 = "WeatherLabel";
-        %tmp.234 = invoke %tmp.231 %tmp.232(%tmp.233);
-        %tmp.235 = as %tmp.234 Text;
-        lputv %weatherLabel.21 %tmp.235;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 102 12 ]
-        %tmp.236 = lgetv %weatherLabel.21;
-        %tmp.237 = getv function %tmp.236 :setText;
-        %tmp.238 = lgetv %currentWeather.20;
-        %tmp.239 = as %tmp.238 { (!Null) };
-        %tmp.240 = getv %tmp.239 :temperature;
-        %tmp.241 = getv function %tmp.240 :format;
-        %tmp.242 = "%d";
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
+        %stressLabel.18 = local;
+        %tmp.199 = getv ? :View;
+        %tmp.200 = getv function %tmp.199 :findDrawableById;
+        %tmp.201 = "StressLabel";
+        %tmp.202 = invoke %tmp.199 %tmp.200(%tmp.201);
+        %tmp.203 = as %tmp.202 Text;
+        lputv %stressLabel.18 %tmp.203;
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 98 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_98_8_100_8_if_stmt:
+        %tmp.205 = lgetv %stressScore.17;
+        %tmp.206 = null;
+        %tmp.207 = ne %tmp.205 %tmp.206;
+        bf %tmp.207 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_98_8_100_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_98_8_100_8_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_98_33_100_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 99 12 ]
+        %tmp.208 = lgetv %stressLabel.18;
+        %tmp.209 = getv function %tmp.208 :setText;
+        %tmp.211 = lgetv %stressScore.17;
+        %tmp.212 = as %tmp.211 { (!Null) };
+        %tmp.213 = " s";
+        %tmp.214 = add %tmp.212 %tmp.213;
+        invoke %tmp.208 %tmp.209(%tmp.214);
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_98_33_100_8_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_98_8_100_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_98_8_100_8_if_end:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 102 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
+        %bodyBattery.19 = local;
+        %tmp.215 = self;
+        %tmp.216 = getv function %tmp.215 :getBodyBattery;
+        %tmp.217 = invoke %tmp.215 %tmp.216();
+        lputv %bodyBattery.19 %tmp.217;
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 103 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
+        %bodyBatteryLabel.20 = local;
+        %tmp.219 = getv ? :View;
+        %tmp.220 = getv function %tmp.219 :findDrawableById;
+        %tmp.221 = "BodyBatteryLabel";
+        %tmp.222 = invoke %tmp.219 %tmp.220(%tmp.221);
+        %tmp.223 = as %tmp.222 Text;
+        lputv %bodyBatteryLabel.20 %tmp.223;
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 104 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_104_8_106_8_if_stmt:
+        %tmp.225 = lgetv %bodyBattery.19;
+        %tmp.226 = "-";
+        %tmp.227 = ne %tmp.225 %tmp.226;
+        bf %tmp.227 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_104_8_106_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_104_8_106_8_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_104_32_106_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 105 12 ]
+        %tmp.228 = lgetv %bodyBatteryLabel.20;
+        %tmp.229 = getv function %tmp.228 :setText;
+        %tmp.231 = lgetv %bodyBattery.19;
+        invoke %tmp.228 %tmp.229(%tmp.231);
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_104_32_106_8_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_104_8_106_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_104_8_106_8_if_end:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 109 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop" ]
+        %currentWeather.21 = local;
+        %tmp.232 = getm $.Toybox.Weather;
+        %tmp.233 = getv function %tmp.232 :getCurrentConditions;
+        %tmp.234 = invoke %tmp.232 %tmp.233();
+        lputv %currentWeather.21 %tmp.234;
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 110 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_110_8_113_8_if_stmt:
+        %tmp.236 = lgetv %currentWeather.21;
+        %tmp.237 = null;
+        %tmp.238 = ne %tmp.236 %tmp.237;
+        bf %tmp.238 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_110_8_113_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_110_8_113_8_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_110_36_113_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 111 12 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_110_36_113_8_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_110_36_113_8_stop" ]
+        %weatherLabel.22 = local;
+        %tmp.240 = getv ? :View;
+        %tmp.241 = getv function %tmp.240 :findDrawableById;
+        %tmp.242 = "WeatherLabel";
         %tmp.243 = invoke %tmp.240 %tmp.241(%tmp.242);
-        %tmp.244 = "°C";
-        %tmp.245 = add %tmp.243 %tmp.244;
-        invoke %tmp.236 %tmp.237(%tmp.245);
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_100_36_103_8_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_100_8_103_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_100_8_103_8_if_end:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 115 8 ]
-        %tmp.247 = getv ? :View;
-        %tmp.248 = getv function %tmp.247 :onUpdate;
-        %tmp.250 = lgetv %dc;
-        invoke %tmp.247 %tmp.248(%tmp.250);
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_30_40_116_4_stop:
-    }
-    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 121; ]
-    function onHide() as Void {
-    }
-    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 125; ]
-    function onExitSleep() as Void {
-    }
-    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 129; ]
-    function onEnterSleep() as Void {
+        %tmp.244 = as %tmp.243 Text;
+        lputv %weatherLabel.22 %tmp.244;
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 112 12 ]
+        %tmp.245 = lgetv %weatherLabel.22;
+        %tmp.246 = getv function %tmp.245 :setText;
+        %tmp.247 = lgetv %currentWeather.21;
+        %tmp.248 = as %tmp.247 { (!Null) };
+        %tmp.249 = getv %tmp.248 :temperature;
+        %tmp.250 = getv function %tmp.249 :format;
+        %tmp.251 = "%d";
+        %tmp.252 = invoke %tmp.249 %tmp.250(%tmp.251);
+        %tmp.253 = "°C";
+        %tmp.254 = add %tmp.252 %tmp.253;
+        invoke %tmp.245 %tmp.246(%tmp.254);
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_110_36_113_8_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_110_8_113_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_110_8_113_8_if_end:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 116 8 ]
+        %tmp.256 = getv ? :View;
+        %tmp.257 = getv function %tmp.256 :onUpdate;
+        %tmp.259 = lgetv %dc;
+        invoke %tmp.256 %tmp.257(%tmp.259);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 118 8 ]
+        %tmp.260 = lgetv %dc;
+        %tmp.261 = getv function %tmp.260 :setColor;
+        %tmp.262 = getm $.Toybox.Graphics;
+        %tmp.263 = getv %tmp.262 :COLOR_BLACK;
+        %tmp.264 = getm $.Toybox.Graphics;
+        %tmp.265 = getv %tmp.264 :COLOR_BLACK;
+        invoke %tmp.260 %tmp.261(%tmp.263, %tmp.265);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 119 8 ]
+        %tmp.266 = lgetv %dc;
+        %tmp.267 = getv function %tmp.266 :drawLine;
+        %tmp.268 = 0;
+        %tmp.269 = 50;
+        %tmp.270 = 280;
+        %tmp.271 = 50;
+        invoke %tmp.266 %tmp.267(%tmp.268, %tmp.269, %tmp.270, %tmp.271);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 120 8 ]
+        %tmp.272 = lgetv %dc;
+        %tmp.273 = getv function %tmp.272 :drawLine;
+        %tmp.274 = 150;
+        %tmp.275 = 50;
+        %tmp.276 = 150;
+        %tmp.277 = 164;
+        invoke %tmp.272 %tmp.273(%tmp.274, %tmp.275, %tmp.276, %tmp.277);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 121 8 ]
+        %tmp.278 = lgetv %dc;
+        %tmp.279 = getv function %tmp.278 :drawLine;
+        %tmp.280 = 0;
+        %tmp.281 = 164;
+        %tmp.282 = 280;
+        %tmp.283 = 164;
+        invoke %tmp.278 %tmp.279(%tmp.280, %tmp.281, %tmp.282, %tmp.283);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 122 8 ]
+        %tmp.284 = lgetv %dc;
+        %tmp.285 = getv function %tmp.284 :drawLine;
+        %tmp.286 = 0;
+        %tmp.287 = 210;
+        %tmp.288 = 280;
+        %tmp.289 = 210;
+        invoke %tmp.284 %tmp.285(%tmp.286, %tmp.287, %tmp.288, %tmp.289);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 124 8 ]
+        %tmp.290 = lgetv %dc;
+        %tmp.291 = getv function %tmp.290 :drawBitmap;
+        %tmp.292 = 125;
+        %tmp.293 = 220;
+        %tmp.295 = getv ? :batteryIcon;
+        invoke %tmp.290 %tmp.291(%tmp.292, %tmp.293, %tmp.295);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 125 8 ]
+        %tmp.296 = lgetv %dc;
+        %tmp.297 = getv function %tmp.296 :drawBitmap;
+        %tmp.298 = 110;
+        %tmp.299 = 175;
+        %tmp.301 = getv ? :imageFootsteps;
+        invoke %tmp.296 %tmp.297(%tmp.298, %tmp.299, %tmp.301);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 126 8 ]
+        %tmp.302 = lgetv %dc;
+        %tmp.303 = getv function %tmp.302 :drawBitmap;
+        %tmp.304 = 120;
+        %tmp.305 = 17;
+        %tmp.307 = getv ? :personIcon;
+        invoke %tmp.302 %tmp.303(%tmp.304, %tmp.305, %tmp.307);
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_34_40_127_4_stop:
     }
     [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 132; ]
+    function onHide() as Void {
+    }
+    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 136; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 140; ]
+    function onEnterSleep() as Void {
+    }
+    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 143; ]
     function getBodyBattery() as String {
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_132_40_154_4_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 133 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_132_40_154_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_132_40_154_4_stop" ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_40_165_4_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 144 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_40_165_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_40_165_4_stop" ]
         %bodybattery.1 = local;
         %tmp.1 = null;
         lputv %bodybattery.1 %tmp.1;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 134 8 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_134_8_141_8_if_stmt:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_12_136_38_begin:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 145 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_8_152_8_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_146_12_147_38_begin:
         %tmp.3 = getv ? :Toybox;
         %tmp.5 = const :SensorHistory;
         %tmp.6 = canhazplz %tmp.3 %tmp.5;
-        bf %tmp.6 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_134_8_141_8_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_136_12_136_38_true:
+        bf %tmp.6 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_8_152_8_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_12_147_38_true:
         %tmp.8 = getv ? :Toybox;
         %tmp.9 = as %tmp.8 { (interface { var SensorHistory; }) };
         %tmp.10 = getv %tmp.9 :SensorHistory;
         %tmp.12 = const :getBodyBatteryHistory;
         %tmp.13 = canhazplz %tmp.10 %tmp.12;
         push %tmp.13;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_136_12_136_38_end:
-        %tmp.14 = phi [%tmp.6 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_12_136_38_begin] [%tmp.13 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_136_12_136_38_true] [%tmp.14 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_136_12_136_38_end];
-        bf %tmp.14 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_134_8_141_8_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_134_8_141_8_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_137_10_139_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 138 12 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_12_147_38_end:
+        %tmp.14 = phi [%tmp.6 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_146_12_147_38_begin] [%tmp.13 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_12_147_38_true] [%tmp.14 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_12_147_38_end];
+        bf %tmp.14 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_8_152_8_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_8_152_8_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_148_10_150_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 149 12 ]
         %tmp.15 = getm $.Toybox.SensorHistory;
         %tmp.16 = getv function %tmp.15 :getBodyBatteryHistory;
         %tmp.17 = newd 1;
@@ -507,77 +611,77 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_137_1
         %tmp.22 = aputv %tmp.21 %tmp.19 %tmp.20;
         %tmp.23 = invoke %tmp.15 %tmp.16(%tmp.22);
         lputv %bodybattery.1 %tmp.23;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_137_10_139_8_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_134_8_141_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_134_8_141_8_if_false:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_15_141_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 140 12 ]
-        %tmp.24 = "N";
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_148_10_150_8_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_8_152_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_8_152_8_if_false:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_150_15_152_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 151 12 ]
+        %tmp.24 = "-";
         ret %tmp.24;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_15_141_8_stop:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_134_8_141_8_if_end:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 142 8 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_142_8_144_8_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_150_15_152_8_stop:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_8_152_8_if_end:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 153 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_8_155_8_if_stmt:
         %tmp.26 = lgetv %bodybattery.1;
         %tmp.27 = null;
         %tmp.28 = ne %tmp.26 %tmp.27;
-        bf %tmp.28 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_142_8_144_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_142_8_144_8_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_142_33_144_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 143 12 ]
+        bf %tmp.28 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_8_155_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_8_155_8_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_33_155_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 154 12 ]
         %tmp.29 = lgetv %bodybattery.1;
         %tmp.30 = as %tmp.29 { (!Null) };
         %tmp.31 = getv function %tmp.30 :next;
         %tmp.32 = invoke %tmp.30 %tmp.31();
         lputv %bodybattery.1 %tmp.32;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_142_33_144_8_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_142_8_144_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_142_8_144_8_if_end:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 145 8 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_8_147_8_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_33_155_8_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_8_155_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_8_155_8_if_end:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 156 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_156_8_158_8_if_stmt:
         %tmp.34 = lgetv %bodybattery.1;
         %tmp.35 = null;
         %tmp.36 = ne %tmp.34 %tmp.35;
-        bf %tmp.36 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_8_147_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_8_147_8_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_33_147_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 146 12 ]
+        bf %tmp.36 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_156_8_158_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_156_8_158_8_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_156_33_158_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 157 12 ]
         %tmp.37 = lgetv %bodybattery.1;
         %tmp.38 = as %tmp.37 { (!Null) };
         %tmp.39 = getv %tmp.38 :data;
         lputv %bodybattery.1 %tmp.39;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_33_147_8_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_8_147_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_8_147_8_if_end:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 149 8 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_8_153_8_if_stmt:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_12_149_70_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_12_149_50_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_156_33_158_8_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_156_8_158_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_156_8_158_8_if_end:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 160 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_8_164_8_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_12_160_70_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_12_160_50_begin:
         %tmp.41 = lgetv %bodybattery.1;
         %tmp.42 = null;
         %tmp.43 = ne %tmp.41 %tmp.42;
-        bf %tmp.43 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_8_153_8_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_35_149_50_true:
+        bf %tmp.43 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_8_164_8_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_35_160_50_true:
         %tmp.45 = lgetv %bodybattery.1;
         %tmp.46 = as %tmp.45 { (!Null) };
         %tmp.47 = 0;
         %tmp.48 = gte %tmp.46 %tmp.47;
         push %tmp.48;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_35_149_50_end:
-        %tmp.49 = phi [%tmp.43 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_12_149_50_begin] [%tmp.48 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_35_149_50_true] [%tmp.49 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_35_149_50_end];
-        bf %tmp.49 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_8_153_8_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_55_149_70_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_35_160_50_end:
+        %tmp.49 = phi [%tmp.43 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_12_160_50_begin] [%tmp.48 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_35_160_50_true] [%tmp.49 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_35_160_50_end];
+        bf %tmp.49 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_8_164_8_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_55_160_70_true:
         %tmp.51 = lgetv %bodybattery.1;
         %tmp.52 = as %tmp.51 { (!Null) };
         %tmp.53 = 100;
         %tmp.54 = lte %tmp.52 %tmp.53;
         push %tmp.54;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_55_149_70_end:
-        %tmp.55 = phi [%tmp.49 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_12_149_70_begin] [%tmp.54 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_55_149_70_true] [%tmp.55 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_55_149_70_end];
-        bf %tmp.55 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_8_153_8_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_8_153_8_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_75_151_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 150 12 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_55_160_70_end:
+        %tmp.55 = phi [%tmp.49 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_12_160_70_begin] [%tmp.54 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_55_160_70_true] [%tmp.55 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_55_160_70_end];
+        bf %tmp.55 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_8_164_8_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_8_164_8_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_75_162_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 161 12 ]
         %tmp.56 = lgetv %bodybattery.1;
         %tmp.57 = as %tmp.56 { (!Null) };
         %tmp.58 = getv function %tmp.57 :format;
@@ -586,16 +690,16 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_7
         %tmp.61 = "%";
         %tmp.62 = add %tmp.60 %tmp.61;
         ret %tmp.62;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_75_151_8_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_8_153_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_8_153_8_if_false:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_15_153_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 152 12 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_75_162_8_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_8_164_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_8_164_8_if_false:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_162_15_164_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 163 12 ]
         %tmp.63 = "-";
         ret %tmp.63;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_15_153_8_stop:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_8_153_8_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_132_40_154_4_stop:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_162_15_164_8_stop:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_160_8_164_8_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_40_165_4_stop:
     }
 }
 [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 1; ]

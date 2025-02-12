@@ -9,6 +9,8 @@ using Toybox.ActivityMonitor;
 
 class XLWatchFace955View extends WatchUi.WatchFace {
     var imageFootsteps;
+    var batteryIcon;
+    var personIcon;
 
     function initialize() {
         WatchFace.initialize();
@@ -17,6 +19,8 @@ class XLWatchFace955View extends WatchUi.WatchFace {
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         imageFootsteps = Application.loadResource( Rez.Drawables.footsteps ) as BitmapResource;
+        batteryIcon = Application.loadResource( Rez.Drawables.battery ) as BitmapResource;
+        personIcon = Application.loadResource( Rez.Drawables.person ) as BitmapResource;
         setLayout(Rez.Layouts.WatchFace(dc));
     }
 
@@ -56,12 +60,14 @@ class XLWatchFace955View extends WatchUi.WatchFace {
         var batteryPercent = System.getSystemStats().battery;
         var batteryInDays = System.getSystemStats().batteryInDays;
         var battery = View.findDrawableById("BatteryLabel") as Text;
+        var batteryDays = View.findDrawableById("BatteryDays") as Text;
         if (batteryPercent < 20) {
             battery.setColor(0xFF0000);
         } else {
             battery.setColor(Application.Properties.getValue("ForegroundColor") as Number);
         }
-        battery.setText(batteryPercent.format("%d") + "% (" + batteryInDays.format("%d") + "d)");
+        battery.setText(batteryPercent.format("%d") + "%");
+        batteryDays.setText(batteryInDays.format("%d") + "d");
 
         // Date
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
@@ -90,12 +96,14 @@ class XLWatchFace955View extends WatchUi.WatchFace {
         var stressLabel = View.findDrawableById("StressLabel") as Text;
         
         if (stressScore != null) {
-            stressLabel.setText(stressScore + " st");
+            stressLabel.setText(stressScore + " s");
         }
 
         var bodyBattery = getBodyBattery();
         var bodyBatteryLabel = View.findDrawableById("BodyBatteryLabel") as Text;
-        bodyBatteryLabel.setText(bodyBattery);
+        if (bodyBattery != "-") {
+            bodyBatteryLabel.setText(bodyBattery);
+        }
 
         // Weather
         var currentWeather = Weather.getCurrentConditions();
@@ -104,17 +112,18 @@ class XLWatchFace955View extends WatchUi.WatchFace {
             weatherLabel.setText(currentWeather.temperature.format("%d") + "°C");
         }
 
-                // dc.drawBitmap( 10, 10, imageFootsteps );
-        // dc.drawBitmap2( 50, 50, imageFootsteps, {
-        //     // :bitmapX => 1,
-        //     // :bitmapY => 1,
-        //     :bitmapWidth => 40,
-        //     :bitmapHeight => 40,
-        //     // :tintColor => 0x55ffff
-        // } );
-
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
+        dc.drawLine(0, 50, 280, 50);
+        dc.drawLine(150, 50, 150, 164);
+        dc.drawLine(0, 164, 280, 164);
+        dc.drawLine(0, 210, 280, 210);
+
+        dc.drawBitmap(125, 220, batteryIcon );
+        dc.drawBitmap(110, 175, imageFootsteps );
+        dc.drawBitmap(120, 17, personIcon );
     }
 
     // Called when this View is removed from the screen. Save the
@@ -139,7 +148,7 @@ class XLWatchFace955View extends WatchUi.WatchFace {
         ) {
             bodybattery = Toybox.SensorHistory.getBodyBatteryHistory({ :period => 1 });
         } else {
-            return "N";
+            return "-";
         }
         if (bodybattery != null) {
             bodybattery = bodybattery.next();
