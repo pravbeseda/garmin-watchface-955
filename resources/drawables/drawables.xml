@@ -3,4 +3,30 @@
     <bitmap id="footsteps" filename="footsteps.svg" scaleX="24" scaleY="24" />
     <bitmap id="battery" filename="battery.svg" scaleX="36" scaleY="36" />
     <bitmap id="person" filename="person.svg" scaleX="24" scaleY="24" />
+    <bitmap id="weather_day_clear" filename="weather/day_clear.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_night_clear" filename="weather/night_clear.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_cloudy" filename="weather/cloudy.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_overcast" filename="weather/overcast.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_rain" filename="weather/rain.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_rain_thunder" filename="weather/rain_thunder.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_snow" filename="weather/snow.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_snow_thunder" filename="weather/snow_thunder.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_sleet" filename="weather/sleet.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_fog" filename="weather/fog.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_mist" filename="weather/mist.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_thunder" filename="weather/thunder.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_tornado" filename="weather/tornado.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_wind" filename="weather/wind.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_day_partial_cloud" filename="weather/day_partial_cloud.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_night_partial_cloud" filename="weather/night_partial_cloud.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_day_rain" filename="weather/day_rain.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_night_rain" filename="weather/night_rain.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_day_snow" filename="weather/day_snow.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_night_snow" filename="weather/night_snow.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_day_sleet" filename="weather/day_sleet.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_night_sleet" filename="weather/night_sleet.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_day_rain_thunder" filename="weather/day_rain_thunder.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_night_rain_thunder" filename="weather/night_rain_thunder.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_day_snow_thunder" filename="weather/day_snow_thunder.png" scaleX="36" scaleY="36" />
+    <bitmap id="weather_night_snow_thunder" filename="weather/night_snow_thunder.png" scaleX="36" scaleY="36" />
 </drawables>
