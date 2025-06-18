@@ -37,10 +37,10 @@ module Rez {
 _Users_ai_Workspace_WatchFaces_XLWatchFace955_bin_gen_006_B4024_00_source_Rez_mcgen_16_73_38_8_start:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/bin/gen/006-B4024-00/source/Rez.mcgen" 17 12 ]
             [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_bin_gen_006_B4024_00_source_Rez_mcgen_16_73_38_8_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_bin_gen_006_B4024_00_source_Rez_mcgen_16_73_38_8_stop" ]
-            %rez_cmp_local_custom_drawable_46863701697796904154.1 = local;
+            %rez_cmp_local_custom_drawable_12967456481289752844.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_46863701697796904154.1 %tmp.1;
+            lputv %rez_cmp_local_custom_drawable_12967456481289752844.1 %tmp.1;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/bin/gen/006-B4024-00/source/Rez.mcgen" 19 12 ]
             [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_bin_gen_006_B4024_00_source_Rez_mcgen_16_73_38_8_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_bin_gen_006_B4024_00_source_Rez_mcgen_16_73_38_8_stop" ]
             %rez_cmp_local_text_BatteryLabel.2 = local;
@@ -358,7 +358,7 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_bin_gen_006_B4024_00_source_Rez_mc
             lputv %rez_cmp_local_text_WeatherLabel.10 %tmp.309;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/bin/gen/006-B4024-00/source/Rez.mcgen" 37 12 ]
             %tmp.347 = newa 10 Array<WatchUi.Drawable>;
-            %tmp.349 = lgetv %rez_cmp_local_custom_drawable_46863701697796904154.1;
+            %tmp.349 = lgetv %rez_cmp_local_custom_drawable_12967456481289752844.1;
             %tmp.350 = dup %tmp.347;
             %tmp.351 = aputv %tmp.350 0 %tmp.349;
             %tmp.353 = lgetv %rez_cmp_local_text_BatteryLabel.2;

@@ -11,9 +11,9 @@
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc" id="6" lineNum="8" parent="globals/Background" pc="268435537" symbol="initialize"/>
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc" id="6" lineNum="9" parent="globals/Background" pc="268435540" symbol="initialize"/>
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc" id="6" lineNum="13" parent="globals/Background" pc="268435558" symbol="initialize"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc" id="7" lineNum="16" parent="globals/Background" pc="268435575" symbol="draw"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc" id="7" lineNum="18" parent="globals/Background" pc="268435577" symbol="draw"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc" id="7" lineNum="19" parent="globals/Background" pc="268435608" symbol="draw"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc" id="7" lineNum="15" parent="globals/Background" pc="268435575" symbol="draw"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc" id="7" lineNum="17" parent="globals/Background" pc="268435577" symbol="draw"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc" id="7" lineNum="18" parent="globals/Background" pc="268435608" symbol="draw"/>
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="10" lineNum="20" parent="globals/XLWatchFace955View" pc="268435617" symbol="onLayout"/>
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="10" lineNum="21" parent="globals/XLWatchFace955View" pc="268435619" symbol="onLayout"/>
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="10" lineNum="22" parent="globals/XLWatchFace955View" pc="268435657" symbol="onLayout"/>
@@ -204,7 +204,7 @@
         <entry endPc="268437022" name="currentWeather" stackId="22" startPc="268435952"/>
         <entry endPc="268436849" name="weatherLabel" stackId="23" startPc="268436790"/>
         <entry arg="true" endPc="268437901" name="dc" stackId="1" startPc="268437091"/>
-        <entry endPc="268437901" name="rez_cmp_local_custom_drawable_46863701697796904154" stackId="2" startPc="268437102"/>
+        <entry endPc="268437901" name="rez_cmp_local_custom_drawable_12967456481289752844" stackId="2" startPc="268437102"/>
         <entry endPc="268437901" name="rez_cmp_local_text_BatteryLabel" stackId="3" startPc="268437102"/>
         <entry endPc="268437901" name="rez_cmp_local_text_BatteryDays" stackId="4" startPc="268437102"/>
         <entry endPc="268437901" name="rez_cmp_local_text_DayLabel" stackId="5" startPc="268437102"/>
