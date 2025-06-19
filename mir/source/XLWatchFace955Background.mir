@@ -34,10 +34,10 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955Background_mc
         invoke %tmp.8 %tmp.9(%tmp.11);
 _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955Background_mc_8_26_14_4_stop:
     }
-    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc"; @line = 16; ]
+    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc"; @line = 15; ]
     function draw(dc as Dc) as Void {
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955Background_mc_16_36_20_4_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc" 18 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955Background_mc_15_36_19_4_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc" 17 8 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setColor;
         %tmp.3 = getm $.Toybox.Graphics;
@@ -50,11 +50,11 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955Background_mc
         %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
         %tmp.11 = as %tmp.10 Number;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.11);
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc" 19 8 ]
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc" 18 8 ]
         %tmp.12 = lgetv %dc;
         %tmp.13 = getv function %tmp.12 :clear;
         invoke %tmp.12 %tmp.13();
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955Background_mc_16_36_20_4_stop:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955Background_mc_15_36_19_4_stop:
     }
 }
 [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955Background.mc"; @line = 1; ]
