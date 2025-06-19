@@ -67,8 +67,16 @@
     <label 
         id="WeatherLabel" 
         x="200" 
-        y="100"
+        y="98"
         font="Graphics.FONT_SMALL" 
         justification="Graphics.TEXT_JUSTIFY_CENTER" 
         color="Graphics.COLOR_BLACK" />
+
+    <label 
+        id="HumidityLabel" 
+        x="200" 
+        y="130"
+        font="Graphics.FONT_SMALL" 
+        justification="Graphics.TEXT_JUSTIFY_CENTER" 
+        color="Graphics.COLOR_DK_BLUE" />
 </layout>

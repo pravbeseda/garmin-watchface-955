@@ -129,6 +129,12 @@ class XLWatchFace955View extends WatchUi.WatchFace {
         if (currentWeather != null) {
             var weatherLabel = View.findDrawableById("WeatherLabel") as Text;
             weatherLabel.setText(currentWeather.temperature.format("%d") + "°C");
+            var humidityLabel = View.findDrawableById("HumidityLabel") as Text;
+            if (currentWeather.relativeHumidity != null) {
+                humidityLabel.setText(currentWeather.relativeHumidity.format("%d") + "%");
+            } else {
+                humidityLabel.setText("");
+            }
             var cond = currentWeather.condition;
             if (cond == Weather.CONDITION_CLEAR || cond == Weather.CONDITION_FAIR || cond == Weather.CONDITION_MOSTLY_CLEAR || cond == Weather.CONDITION_PARTLY_CLEAR) {
                 weatherIcon = weather2SunIcon;

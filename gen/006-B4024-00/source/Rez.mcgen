@@ -25,7 +25,7 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_13420625641864975775 = new Background();
+            var rez_cmp_local_custom_drawable_19227465349020337311 = new Background();
 
             var rez_cmp_local_text_BatteryLabel = new WatchUi.Text({:identifier=>"BatteryLabel", :color=>Graphics.COLOR_BLACK, :locX=>100, :locY=>220, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
@@ -43,9 +43,11 @@ module Rez {
 
             var rez_cmp_local_text_StressLabel = new WatchUi.Text({:identifier=>"StressLabel", :color=>Graphics.COLOR_BLACK, :locX=>176, :locY=>15, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
-            var rez_cmp_local_text_WeatherLabel = new WatchUi.Text({:identifier=>"WeatherLabel", :color=>Graphics.COLOR_BLACK, :locX=>200, :locY=>100, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+            var rez_cmp_local_text_WeatherLabel = new WatchUi.Text({:identifier=>"WeatherLabel", :color=>Graphics.COLOR_BLACK, :locX=>200, :locY=>98, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
-            return [rez_cmp_local_custom_drawable_13420625641864975775, rez_cmp_local_text_BatteryLabel, rez_cmp_local_text_BatteryDays, rez_cmp_local_text_DayLabel, rez_cmp_local_text_TimeLabel, rez_cmp_local_text_StepsLabel, rez_cmp_local_text_DistanceLabel, rez_cmp_local_text_BodyBatteryLabel, rez_cmp_local_text_StressLabel, rez_cmp_local_text_WeatherLabel] as Array<WatchUi.Drawable>;
+            var rez_cmp_local_text_HumidityLabel = new WatchUi.Text({:identifier=>"HumidityLabel", :color=>Graphics.COLOR_DK_BLUE, :locX=>200, :locY=>130, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            return [rez_cmp_local_custom_drawable_19227465349020337311, rez_cmp_local_text_BatteryLabel, rez_cmp_local_text_BatteryDays, rez_cmp_local_text_DayLabel, rez_cmp_local_text_TimeLabel, rez_cmp_local_text_StepsLabel, rez_cmp_local_text_DistanceLabel, rez_cmp_local_text_BodyBatteryLabel, rez_cmp_local_text_StressLabel, rez_cmp_local_text_WeatherLabel, rez_cmp_local_text_HumidityLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

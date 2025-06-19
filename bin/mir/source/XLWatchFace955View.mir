@@ -183,21 +183,21 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_29_40
     }
     [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 52; ]
     function onUpdate(dc as Dc) as Void {
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 54 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %timeFormat.1 = local;
         %tmp.1 = "$1$:$2$";
         lputv %timeFormat.1 %tmp.1;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 55 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %clockTime.2 = local;
         %tmp.2 = getm $.Toybox.System;
         %tmp.3 = getv function %tmp.2 :getClockTime;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %clockTime.2 %tmp.4;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 56 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %hours.3 = local;
         %tmp.5 = lgetv %clockTime.2;
         %tmp.6 = getv %tmp.5 :hour;
@@ -257,7 +257,7 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_62_12
 _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_61_15_67_8_stop:
 _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_58_8_67_8_if_end:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 69 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %timeString.4 = local;
         %tmp.30 = getm $.Toybox.Lang;
         %tmp.31 = getv function %tmp.30 :format;
@@ -276,7 +276,7 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_58_8_
         %tmp.46 = invoke %tmp.30 %tmp.31(%tmp.33, %tmp.45);
         lputv %timeString.4 %tmp.46;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 72 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %time.5 = local;
         %tmp.48 = getv ? :View;
         %tmp.49 = getv function %tmp.48 :findDrawableById;
@@ -306,7 +306,7 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_58_8_
         %tmp.68 = getv %tmp.67 :FONT_NUMBER_MEDIUM;
         invoke %tmp.65 %tmp.66(%tmp.68);
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 78 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %batteryPercent.6 = local;
         %tmp.69 = getm $.Toybox.System;
         %tmp.70 = getv function %tmp.69 :getSystemStats;
@@ -314,7 +314,7 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_58_8_
         %tmp.72 = getv %tmp.71 :battery;
         lputv %batteryPercent.6 %tmp.72;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 79 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %batteryInDays.7 = local;
         %tmp.73 = getm $.Toybox.System;
         %tmp.74 = getv function %tmp.73 :getSystemStats;
@@ -322,7 +322,7 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_58_8_
         %tmp.76 = getv %tmp.75 :batteryInDays;
         lputv %batteryInDays.7 %tmp.76;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 80 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %battery.8 = local;
         %tmp.78 = getv ? :View;
         %tmp.79 = getv function %tmp.78 :findDrawableById;
@@ -331,7 +331,7 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_58_8_
         %tmp.82 = as %tmp.81 Text;
         lputv %battery.8 %tmp.82;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 81 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %batteryDays.9 = local;
         %tmp.84 = getv ? :View;
         %tmp.85 = getv function %tmp.84 :findDrawableById;
@@ -389,7 +389,7 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_82_8_
         %tmp.119 = add %tmp.117 %tmp.118;
         invoke %tmp.112 %tmp.113(%tmp.119);
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 91 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %today.10 = local;
         %tmp.120 = getm $.Toybox.Time.Gregorian;
         %tmp.121 = getv function %tmp.120 :info;
@@ -401,7 +401,7 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_82_8_
         %tmp.129 = invoke %tmp.120 %tmp.121(%tmp.125, %tmp.128);
         lputv %today.10 %tmp.129;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 92 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %dateString.11 = local;
         %tmp.130 = getm $.Toybox.Lang;
         %tmp.131 = getv function %tmp.130 :format;
@@ -422,7 +422,7 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_82_8_
         %tmp.146 = invoke %tmp.130 %tmp.131(%tmp.132, %tmp.145);
         lputv %dateString.11 %tmp.146;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 99 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %dayLabel.12 = local;
         %tmp.148 = getv ? :View;
         %tmp.149 = getv function %tmp.148 :findDrawableById;
@@ -436,14 +436,14 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_82_8_
         %tmp.156 = lgetv %dateString.11;
         invoke %tmp.153 %tmp.154(%tmp.156);
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 102 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %activity.13 = local;
         %tmp.157 = getm $.Toybox.ActivityMonitor;
         %tmp.158 = getv function %tmp.157 :getInfo;
         %tmp.159 = invoke %tmp.157 %tmp.158();
         lputv %activity.13 %tmp.159;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 103 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %stepsLabel.14 = local;
         %tmp.161 = getv ? :View;
         %tmp.162 = getv function %tmp.161 :findDrawableById;
@@ -452,7 +452,7 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_82_8_
         %tmp.165 = as %tmp.164 Text;
         lputv %stepsLabel.14 %tmp.165;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 104 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %stepsString.15 = local;
         %tmp.166 = getm $.Toybox.Lang;
         %tmp.167 = getv function %tmp.166 :format;
@@ -470,7 +470,7 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_82_8_
         %tmp.178 = lgetv %stepsString.15;
         invoke %tmp.175 %tmp.176(%tmp.178);
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 110 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %distanceLabel.16 = local;
         %tmp.180 = getv ? :View;
         %tmp.181 = getv function %tmp.180 :findDrawableById;
@@ -492,13 +492,13 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_82_8_
         %tmp.195 = add %tmp.193 %tmp.194;
         invoke %tmp.185 %tmp.186(%tmp.195);
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 113 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %stressScore.17 = local;
         %tmp.196 = lgetv %activity.13;
         %tmp.197 = getv %tmp.196 :stressScore;
         lputv %stressScore.17 %tmp.197;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 114 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %stressLabel.18 = local;
         %tmp.199 = getv ? :View;
         %tmp.200 = getv function %tmp.199 :findDrawableById;
@@ -526,14 +526,14 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_116_3
         goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_116_8_118_8_if_end;
 _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_116_8_118_8_if_end:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 120 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %bodyBattery.19 = local;
         %tmp.215 = self;
         %tmp.216 = getv function %tmp.215 :getBodyBattery;
         %tmp.217 = invoke %tmp.215 %tmp.216();
         lputv %bodyBattery.19 %tmp.217;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 121 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %bodyBatteryLabel.20 = local;
         %tmp.219 = getv ? :View;
         %tmp.220 = getv function %tmp.219 :findDrawableById;
@@ -558,27 +558,27 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_122_3
         goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_122_8_124_8_if_end;
 _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_122_8_124_8_if_end:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 127 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %currentWeather.21 = local;
         %tmp.232 = getm $.Toybox.Weather;
         %tmp.233 = getv function %tmp.232 :getCurrentConditions;
         %tmp.234 = invoke %tmp.232 %tmp.233();
         lputv %currentWeather.21 %tmp.234;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 128 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop" ]
         %weatherIcon.22 = local;
         %tmp.236 = getv ? :weather2SunIcon;
         lputv %weatherIcon.22 %tmp.236;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 129 8 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_8_156_8_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_8_162_8_if_stmt:
         %tmp.238 = lgetv %currentWeather.21;
         %tmp.239 = null;
         %tmp.240 = ne %tmp.238 %tmp.239;
-        bf %tmp.240 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_8_156_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_8_156_8_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_36_156_8_start:
+        bf %tmp.240 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_8_162_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_8_162_8_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_36_162_8_start:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 130 12 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_36_156_8_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_36_156_8_stop" ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_36_162_8_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_36_162_8_stop" ]
         %weatherLabel.23 = local;
         %tmp.242 = getv ? :View;
         %tmp.243 = getv function %tmp.242 :findDrawableById;
@@ -599,517 +599,559 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_3
         %tmp.256 = add %tmp.254 %tmp.255;
         invoke %tmp.247 %tmp.248(%tmp.256);
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 132 12 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_36_156_8_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_36_156_8_stop" ]
-        %cond.24 = local;
-        %tmp.257 = lgetv %currentWeather.21;
-        %tmp.258 = as %tmp.257 { (!Null) };
-        %tmp.259 = getv %tmp.258 :condition;
-        lputv %cond.24 %tmp.259;
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_36_162_8_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_36_162_8_stop" ]
+        %humidityLabel.24 = local;
+        %tmp.258 = getv ? :View;
+        %tmp.259 = getv function %tmp.258 :findDrawableById;
+        %tmp.260 = "HumidityLabel";
+        %tmp.261 = invoke %tmp.258 %tmp.259(%tmp.260);
+        %tmp.262 = as %tmp.261 Text;
+        lputv %humidityLabel.24 %tmp.262;
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 133 12 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_155_12_if_stmt:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_16_133_143_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_16_133_101_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_16_133_67_begin:
-        %tmp.261 = lgetv %cond.24;
-        %tmp.262 = getm $.Toybox.Weather;
-        %tmp.263 = getv %tmp.262 :CONDITION_CLEAR;
-        %tmp.264 = eq %tmp.261 %tmp.263;
-        bt %tmp.264 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_51_133_67_false:
-        %tmp.266 = lgetv %cond.24;
-        %tmp.267 = getm $.Toybox.Weather;
-        %tmp.268 = getv %tmp.267 :CONDITION_FAIR;
-        %tmp.269 = eq %tmp.266 %tmp.268;
-        push %tmp.269;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_51_133_67_end:
-        %tmp.270 = phi [%tmp.264 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_16_133_67_begin] [%tmp.269 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_51_133_67_false] [%tmp.270 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_51_133_67_end];
-        bt %tmp.270 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_85_133_101_false:
-        %tmp.272 = lgetv %cond.24;
-        %tmp.273 = getm $.Toybox.Weather;
-        %tmp.274 = getv %tmp.273 :CONDITION_MOSTLY_CLEAR;
-        %tmp.275 = eq %tmp.272 %tmp.274;
-        push %tmp.275;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_85_133_101_end:
-        %tmp.276 = phi [%tmp.270 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_16_133_101_begin] [%tmp.275 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_85_133_101_false] [%tmp.276 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_85_133_101_end];
-        bt %tmp.276 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_127_133_143_false:
-        %tmp.278 = lgetv %cond.24;
-        %tmp.279 = getm $.Toybox.Weather;
-        %tmp.280 = getv %tmp.279 :CONDITION_PARTLY_CLEAR;
-        %tmp.281 = eq %tmp.278 %tmp.280;
-        push %tmp.281;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_127_133_143_end:
-        %tmp.282 = phi [%tmp.276 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_16_133_143_begin] [%tmp.281 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_127_133_143_false] [%tmp.282 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_127_133_143_end];
-        bf %tmp.282 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_155_12_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_155_12_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_167_135_12_start:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_137_12_if_stmt:
+        %tmp.263 = lgetv %currentWeather.21;
+        %tmp.264 = as %tmp.263 { (!Null) };
+        %tmp.265 = getv %tmp.264 :relativeHumidity;
+        %tmp.266 = null;
+        %tmp.267 = ne %tmp.265 %tmp.266;
+        bf %tmp.267 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_137_12_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_137_12_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_57_135_12_start:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 134 16 ]
-        %tmp.284 = getv ? :weather2SunIcon;
-        lputv %weatherIcon.22 %tmp.284;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_167_135_12_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_155_12_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_155_12_if_false:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 135 19 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_19_155_12_if_stmt:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_23_135_82_begin:
-        %tmp.286 = lgetv %cond.24;
-        %tmp.287 = getm $.Toybox.Weather;
-        %tmp.288 = getv %tmp.287 :CONDITION_PARTLY_CLOUDY;
-        %tmp.289 = eq %tmp.286 %tmp.288;
-        bt %tmp.289 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_66_135_82_false:
-        %tmp.291 = lgetv %cond.24;
-        %tmp.292 = getm $.Toybox.Weather;
-        %tmp.293 = getv %tmp.292 :CONDITION_MOSTLY_CLOUDY;
-        %tmp.294 = eq %tmp.291 %tmp.293;
-        push %tmp.294;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_66_135_82_end:
-        %tmp.295 = phi [%tmp.289 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_23_135_82_begin] [%tmp.294 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_66_135_82_false] [%tmp.295 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_66_135_82_end];
-        bf %tmp.295 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_19_155_12_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_19_155_12_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_107_137_12_start:
+        %tmp.268 = lgetv %humidityLabel.24;
+        %tmp.269 = getv function %tmp.268 :setText;
+        %tmp.270 = lgetv %currentWeather.21;
+        %tmp.271 = as %tmp.270 { (!Null) };
+        %tmp.272 = getv %tmp.271 :relativeHumidity;
+        %tmp.273 = getv function %tmp.272 :format;
+        %tmp.274 = "%d";
+        %tmp.275 = invoke %tmp.272 %tmp.273(%tmp.274);
+        %tmp.276 = "%";
+        %tmp.277 = add %tmp.275 %tmp.276;
+        invoke %tmp.268 %tmp.269(%tmp.277);
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_57_135_12_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_137_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_137_12_if_false:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_19_137_12_start:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 136 16 ]
-        %tmp.297 = getv ? :weather2PartlySunnyIcon;
-        lputv %weatherIcon.22 %tmp.297;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_107_137_12_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_19_155_12_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_19_155_12_if_false:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 137 19 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_137_19_155_12_if_stmt:
-        %tmp.299 = lgetv %cond.24;
-        %tmp.300 = getm $.Toybox.Weather;
-        %tmp.301 = getv %tmp.300 :CONDITION_CLOUDY;
-        %tmp.302 = eq %tmp.299 %tmp.301;
-        bf %tmp.302 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_137_19_155_12_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_137_19_155_12_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_137_57_139_12_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 138 16 ]
-        %tmp.304 = getv ? :weather2CloudIcon;
-        lputv %weatherIcon.22 %tmp.304;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_137_57_139_12_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_137_19_155_12_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_137_19_155_12_if_false:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 139 19 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_stmt:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_407_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_370_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_323_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_280_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_243_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_200_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_160_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_120_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_73_begin:
-        %tmp.306 = lgetv %cond.24;
-        %tmp.307 = getm $.Toybox.Weather;
-        %tmp.308 = getv %tmp.307 :CONDITION_RAIN;
-        %tmp.309 = eq %tmp.306 %tmp.308;
-        bt %tmp.309 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_57_139_73_false:
-        %tmp.311 = lgetv %cond.24;
-        %tmp.312 = getm $.Toybox.Weather;
-        %tmp.313 = getv %tmp.312 :CONDITION_SCATTERED_SHOWERS;
-        %tmp.314 = eq %tmp.311 %tmp.313;
-        push %tmp.314;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_57_139_73_end:
-        %tmp.315 = phi [%tmp.309 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_73_begin] [%tmp.314 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_57_139_73_false] [%tmp.315 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_57_139_73_end];
-        bt %tmp.315 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_104_139_120_false:
-        %tmp.317 = lgetv %cond.24;
-        %tmp.318 = getm $.Toybox.Weather;
-        %tmp.319 = getv %tmp.318 :CONDITION_LIGHT_RAIN;
-        %tmp.320 = eq %tmp.317 %tmp.319;
-        push %tmp.320;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_104_139_120_end:
-        %tmp.321 = phi [%tmp.315 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_120_begin] [%tmp.320 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_104_139_120_false] [%tmp.321 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_104_139_120_end];
-        bt %tmp.321 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_144_139_160_false:
-        %tmp.323 = lgetv %cond.24;
+        %tmp.278 = lgetv %humidityLabel.24;
+        %tmp.279 = getv function %tmp.278 :setText;
+        %tmp.280 = "";
+        invoke %tmp.278 %tmp.279(%tmp.280);
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_19_137_12_stop:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_137_12_if_end:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 138 12 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_36_162_8_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_36_162_8_stop" ]
+        %cond.25 = local;
+        %tmp.281 = lgetv %currentWeather.21;
+        %tmp.282 = as %tmp.281 { (!Null) };
+        %tmp.283 = getv %tmp.282 :condition;
+        lputv %cond.25 %tmp.283;
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 139 12 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_12_161_12_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_16_139_143_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_16_139_101_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_16_139_67_begin:
+        %tmp.285 = lgetv %cond.25;
+        %tmp.286 = getm $.Toybox.Weather;
+        %tmp.287 = getv %tmp.286 :CONDITION_CLEAR;
+        %tmp.288 = eq %tmp.285 %tmp.287;
+        bt %tmp.288 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_12_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_51_139_67_false:
+        %tmp.290 = lgetv %cond.25;
+        %tmp.291 = getm $.Toybox.Weather;
+        %tmp.292 = getv %tmp.291 :CONDITION_FAIR;
+        %tmp.293 = eq %tmp.290 %tmp.292;
+        push %tmp.293;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_51_139_67_end:
+        %tmp.294 = phi [%tmp.288 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_16_139_67_begin] [%tmp.293 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_51_139_67_false] [%tmp.294 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_51_139_67_end];
+        bt %tmp.294 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_12_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_85_139_101_false:
+        %tmp.296 = lgetv %cond.25;
+        %tmp.297 = getm $.Toybox.Weather;
+        %tmp.298 = getv %tmp.297 :CONDITION_MOSTLY_CLEAR;
+        %tmp.299 = eq %tmp.296 %tmp.298;
+        push %tmp.299;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_85_139_101_end:
+        %tmp.300 = phi [%tmp.294 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_16_139_101_begin] [%tmp.299 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_85_139_101_false] [%tmp.300 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_85_139_101_end];
+        bt %tmp.300 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_12_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_127_139_143_false:
+        %tmp.302 = lgetv %cond.25;
+        %tmp.303 = getm $.Toybox.Weather;
+        %tmp.304 = getv %tmp.303 :CONDITION_PARTLY_CLEAR;
+        %tmp.305 = eq %tmp.302 %tmp.304;
+        push %tmp.305;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_127_139_143_end:
+        %tmp.306 = phi [%tmp.300 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_16_139_143_begin] [%tmp.305 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_127_139_143_false] [%tmp.306 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_127_139_143_end];
+        bf %tmp.306 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_12_161_12_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_12_161_12_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_167_141_12_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 140 16 ]
+        %tmp.308 = getv ? :weather2SunIcon;
+        lputv %weatherIcon.22 %tmp.308;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_167_141_12_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_12_161_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_12_161_12_if_false:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 141 19 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_161_12_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_23_141_82_begin:
+        %tmp.310 = lgetv %cond.25;
+        %tmp.311 = getm $.Toybox.Weather;
+        %tmp.312 = getv %tmp.311 :CONDITION_PARTLY_CLOUDY;
+        %tmp.313 = eq %tmp.310 %tmp.312;
+        bt %tmp.313 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_66_141_82_false:
+        %tmp.315 = lgetv %cond.25;
+        %tmp.316 = getm $.Toybox.Weather;
+        %tmp.317 = getv %tmp.316 :CONDITION_MOSTLY_CLOUDY;
+        %tmp.318 = eq %tmp.315 %tmp.317;
+        push %tmp.318;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_66_141_82_end:
+        %tmp.319 = phi [%tmp.313 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_23_141_82_begin] [%tmp.318 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_66_141_82_false] [%tmp.319 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_66_141_82_end];
+        bf %tmp.319 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_161_12_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_161_12_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_107_143_12_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 142 16 ]
+        %tmp.321 = getv ? :weather2PartlySunnyIcon;
+        lputv %weatherIcon.22 %tmp.321;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_107_143_12_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_161_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_161_12_if_false:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 143 19 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_19_161_12_if_stmt:
+        %tmp.323 = lgetv %cond.25;
         %tmp.324 = getm $.Toybox.Weather;
-        %tmp.325 = getv %tmp.324 :CONDITION_HEAVY_RAIN;
+        %tmp.325 = getv %tmp.324 :CONDITION_CLOUDY;
         %tmp.326 = eq %tmp.323 %tmp.325;
-        push %tmp.326;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_144_139_160_end:
-        %tmp.327 = phi [%tmp.321 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_160_begin] [%tmp.326 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_144_139_160_false] [%tmp.327 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_144_139_160_end];
-        bt %tmp.327 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_184_139_200_false:
-        %tmp.329 = lgetv %cond.24;
-        %tmp.330 = getm $.Toybox.Weather;
-        %tmp.331 = getv %tmp.330 :CONDITION_LIGHT_SHOWERS;
-        %tmp.332 = eq %tmp.329 %tmp.331;
-        push %tmp.332;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_184_139_200_end:
-        %tmp.333 = phi [%tmp.327 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_200_begin] [%tmp.332 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_184_139_200_false] [%tmp.333 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_184_139_200_end];
-        bt %tmp.333 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_227_139_243_false:
-        %tmp.335 = lgetv %cond.24;
+        bf %tmp.326 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_19_161_12_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_19_161_12_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_57_145_12_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 144 16 ]
+        %tmp.328 = getv ? :weather2CloudIcon;
+        lputv %weatherIcon.22 %tmp.328;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_57_145_12_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_19_161_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_19_161_12_if_false:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 145 19 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_407_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_370_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_323_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_280_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_243_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_200_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_160_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_120_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_73_begin:
+        %tmp.330 = lgetv %cond.25;
+        %tmp.331 = getm $.Toybox.Weather;
+        %tmp.332 = getv %tmp.331 :CONDITION_RAIN;
+        %tmp.333 = eq %tmp.330 %tmp.332;
+        bt %tmp.333 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_57_145_73_false:
+        %tmp.335 = lgetv %cond.25;
         %tmp.336 = getm $.Toybox.Weather;
-        %tmp.337 = getv %tmp.336 :CONDITION_SHOWERS;
+        %tmp.337 = getv %tmp.336 :CONDITION_SCATTERED_SHOWERS;
         %tmp.338 = eq %tmp.335 %tmp.337;
         push %tmp.338;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_227_139_243_end:
-        %tmp.339 = phi [%tmp.333 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_243_begin] [%tmp.338 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_227_139_243_false] [%tmp.339 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_227_139_243_end];
-        bt %tmp.339 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_264_139_280_false:
-        %tmp.341 = lgetv %cond.24;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_57_145_73_end:
+        %tmp.339 = phi [%tmp.333 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_73_begin] [%tmp.338 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_57_145_73_false] [%tmp.339 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_57_145_73_end];
+        bt %tmp.339 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_104_145_120_false:
+        %tmp.341 = lgetv %cond.25;
         %tmp.342 = getm $.Toybox.Weather;
-        %tmp.343 = getv %tmp.342 :CONDITION_HEAVY_SHOWERS;
+        %tmp.343 = getv %tmp.342 :CONDITION_LIGHT_RAIN;
         %tmp.344 = eq %tmp.341 %tmp.343;
         push %tmp.344;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_264_139_280_end:
-        %tmp.345 = phi [%tmp.339 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_280_begin] [%tmp.344 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_264_139_280_false] [%tmp.345 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_264_139_280_end];
-        bt %tmp.345 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_307_139_323_false:
-        %tmp.347 = lgetv %cond.24;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_104_145_120_end:
+        %tmp.345 = phi [%tmp.339 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_120_begin] [%tmp.344 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_104_145_120_false] [%tmp.345 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_104_145_120_end];
+        bt %tmp.345 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_144_145_160_false:
+        %tmp.347 = lgetv %cond.25;
         %tmp.348 = getm $.Toybox.Weather;
-        %tmp.349 = getv %tmp.348 :CONDITION_CHANCE_OF_SHOWERS;
+        %tmp.349 = getv %tmp.348 :CONDITION_HEAVY_RAIN;
         %tmp.350 = eq %tmp.347 %tmp.349;
         push %tmp.350;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_307_139_323_end:
-        %tmp.351 = phi [%tmp.345 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_323_begin] [%tmp.350 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_307_139_323_false] [%tmp.351 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_307_139_323_end];
-        bt %tmp.351 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_354_139_370_false:
-        %tmp.353 = lgetv %cond.24;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_144_145_160_end:
+        %tmp.351 = phi [%tmp.345 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_160_begin] [%tmp.350 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_144_145_160_false] [%tmp.351 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_144_145_160_end];
+        bt %tmp.351 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_184_145_200_false:
+        %tmp.353 = lgetv %cond.25;
         %tmp.354 = getm $.Toybox.Weather;
-        %tmp.355 = getv %tmp.354 :CONDITION_DRIZZLE;
+        %tmp.355 = getv %tmp.354 :CONDITION_LIGHT_SHOWERS;
         %tmp.356 = eq %tmp.353 %tmp.355;
         push %tmp.356;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_354_139_370_end:
-        %tmp.357 = phi [%tmp.351 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_370_begin] [%tmp.356 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_354_139_370_false] [%tmp.357 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_354_139_370_end];
-        bt %tmp.357 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_391_139_407_false:
-        %tmp.359 = lgetv %cond.24;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_184_145_200_end:
+        %tmp.357 = phi [%tmp.351 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_200_begin] [%tmp.356 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_184_145_200_false] [%tmp.357 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_184_145_200_end];
+        bt %tmp.357 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_227_145_243_false:
+        %tmp.359 = lgetv %cond.25;
         %tmp.360 = getm $.Toybox.Weather;
-        %tmp.361 = getv %tmp.360 :CONDITION_UNKNOWN_PRECIPITATION;
+        %tmp.361 = getv %tmp.360 :CONDITION_SHOWERS;
         %tmp.362 = eq %tmp.359 %tmp.361;
         push %tmp.362;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_391_139_407_end:
-        %tmp.363 = phi [%tmp.357 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_23_139_407_begin] [%tmp.362 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_391_139_407_false] [%tmp.363 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_391_139_407_end];
-        bf %tmp.363 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_440_141_12_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 140 16 ]
-        %tmp.365 = getv ? :weather2RainIcon;
-        lputv %weatherIcon.22 %tmp.365;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_440_141_12_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_false:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 141 19 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_155_12_if_stmt:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_23_141_113_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_23_141_73_begin:
-        %tmp.367 = lgetv %cond.24;
-        %tmp.368 = getm $.Toybox.Weather;
-        %tmp.369 = getv %tmp.368 :CONDITION_SNOW;
-        %tmp.370 = eq %tmp.367 %tmp.369;
-        bt %tmp.370 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_57_141_73_false:
-        %tmp.372 = lgetv %cond.24;
-        %tmp.373 = getm $.Toybox.Weather;
-        %tmp.374 = getv %tmp.373 :CONDITION_LIGHT_SNOW;
-        %tmp.375 = eq %tmp.372 %tmp.374;
-        push %tmp.375;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_57_141_73_end:
-        %tmp.376 = phi [%tmp.370 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_23_141_73_begin] [%tmp.375 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_57_141_73_false] [%tmp.376 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_57_141_73_end];
-        bt %tmp.376 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_97_141_113_false:
-        %tmp.378 = lgetv %cond.24;
-        %tmp.379 = getm $.Toybox.Weather;
-        %tmp.380 = getv %tmp.379 :CONDITION_HEAVY_SNOW;
-        %tmp.381 = eq %tmp.378 %tmp.380;
-        push %tmp.381;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_97_141_113_end:
-        %tmp.382 = phi [%tmp.376 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_23_141_113_begin] [%tmp.381 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_97_141_113_false] [%tmp.382 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_97_141_113_end];
-        bf %tmp.382 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_155_12_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_155_12_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_135_143_12_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 142 16 ]
-        %tmp.384 = getv ? :weather2SnowIcon;
-        lputv %weatherIcon.22 %tmp.384;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_135_143_12_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_155_12_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_155_12_if_false:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 143 19 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_19_155_12_if_stmt:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_23_143_82_begin:
-        %tmp.386 = lgetv %cond.24;
-        %tmp.387 = getm $.Toybox.Weather;
-        %tmp.388 = getv %tmp.387 :CONDITION_THUNDERSTORMS;
-        %tmp.389 = eq %tmp.386 %tmp.388;
-        bt %tmp.389 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_66_143_82_false:
-        %tmp.391 = lgetv %cond.24;
-        %tmp.392 = getm $.Toybox.Weather;
-        %tmp.393 = getv %tmp.392 :CONDITION_SCATTERED_THUNDERSTORMS;
-        %tmp.394 = eq %tmp.391 %tmp.393;
-        push %tmp.394;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_66_143_82_end:
-        %tmp.395 = phi [%tmp.389 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_23_143_82_begin] [%tmp.394 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_66_143_82_false] [%tmp.395 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_66_143_82_end];
-        bf %tmp.395 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_19_155_12_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_19_155_12_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_117_145_12_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 144 16 ]
-        %tmp.397 = getv ? :weather2StormIcon;
-        lputv %weatherIcon.22 %tmp.397;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_117_145_12_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_19_155_12_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_19_155_12_if_false:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 145 19 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_155_12_if_stmt:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_163_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_118_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_79_begin:
-        %tmp.399 = lgetv %cond.24;
-        %tmp.400 = getm $.Toybox.Weather;
-        %tmp.401 = getv %tmp.400 :CONDITION_WINTRY_MIX;
-        %tmp.402 = eq %tmp.399 %tmp.401;
-        bt %tmp.402 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_63_145_79_false:
-        %tmp.404 = lgetv %cond.24;
-        %tmp.405 = getm $.Toybox.Weather;
-        %tmp.406 = getv %tmp.405 :CONDITION_RAIN_SNOW;
-        %tmp.407 = eq %tmp.404 %tmp.406;
-        push %tmp.407;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_63_145_79_end:
-        %tmp.408 = phi [%tmp.402 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_79_begin] [%tmp.407 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_63_145_79_false] [%tmp.408 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_63_145_79_end];
-        bt %tmp.408 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_102_145_118_false:
-        %tmp.410 = lgetv %cond.24;
-        %tmp.411 = getm $.Toybox.Weather;
-        %tmp.412 = getv %tmp.411 :CONDITION_LIGHT_RAIN_SNOW;
-        %tmp.413 = eq %tmp.410 %tmp.412;
-        push %tmp.413;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_102_145_118_end:
-        %tmp.414 = phi [%tmp.408 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_118_begin] [%tmp.413 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_102_145_118_false] [%tmp.414 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_102_145_118_end];
-        bt %tmp.414 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_147_145_163_false:
-        %tmp.416 = lgetv %cond.24;
-        %tmp.417 = getm $.Toybox.Weather;
-        %tmp.418 = getv %tmp.417 :CONDITION_HEAVY_RAIN_SNOW;
-        %tmp.419 = eq %tmp.416 %tmp.418;
-        push %tmp.419;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_147_145_163_end:
-        %tmp.420 = phi [%tmp.414 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_163_begin] [%tmp.419 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_147_145_163_false] [%tmp.420 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_147_145_163_end];
-        bf %tmp.420 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_155_12_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_155_12_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_190_147_12_start:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_227_145_243_end:
+        %tmp.363 = phi [%tmp.357 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_243_begin] [%tmp.362 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_227_145_243_false] [%tmp.363 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_227_145_243_end];
+        bt %tmp.363 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_264_145_280_false:
+        %tmp.365 = lgetv %cond.25;
+        %tmp.366 = getm $.Toybox.Weather;
+        %tmp.367 = getv %tmp.366 :CONDITION_HEAVY_SHOWERS;
+        %tmp.368 = eq %tmp.365 %tmp.367;
+        push %tmp.368;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_264_145_280_end:
+        %tmp.369 = phi [%tmp.363 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_280_begin] [%tmp.368 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_264_145_280_false] [%tmp.369 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_264_145_280_end];
+        bt %tmp.369 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_307_145_323_false:
+        %tmp.371 = lgetv %cond.25;
+        %tmp.372 = getm $.Toybox.Weather;
+        %tmp.373 = getv %tmp.372 :CONDITION_CHANCE_OF_SHOWERS;
+        %tmp.374 = eq %tmp.371 %tmp.373;
+        push %tmp.374;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_307_145_323_end:
+        %tmp.375 = phi [%tmp.369 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_323_begin] [%tmp.374 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_307_145_323_false] [%tmp.375 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_307_145_323_end];
+        bt %tmp.375 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_354_145_370_false:
+        %tmp.377 = lgetv %cond.25;
+        %tmp.378 = getm $.Toybox.Weather;
+        %tmp.379 = getv %tmp.378 :CONDITION_DRIZZLE;
+        %tmp.380 = eq %tmp.377 %tmp.379;
+        push %tmp.380;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_354_145_370_end:
+        %tmp.381 = phi [%tmp.375 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_370_begin] [%tmp.380 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_354_145_370_false] [%tmp.381 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_354_145_370_end];
+        bt %tmp.381 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_391_145_407_false:
+        %tmp.383 = lgetv %cond.25;
+        %tmp.384 = getm $.Toybox.Weather;
+        %tmp.385 = getv %tmp.384 :CONDITION_UNKNOWN_PRECIPITATION;
+        %tmp.386 = eq %tmp.383 %tmp.385;
+        push %tmp.386;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_391_145_407_end:
+        %tmp.387 = phi [%tmp.381 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_23_145_407_begin] [%tmp.386 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_391_145_407_false] [%tmp.387 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_391_145_407_end];
+        bf %tmp.387 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_440_147_12_start:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 146 16 ]
-        %tmp.422 = getv ? :weather2SnowIcon;
-        lputv %weatherIcon.22 %tmp.422;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_190_147_12_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_155_12_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_155_12_if_false:
+        %tmp.389 = getv ? :weather2RainIcon;
+        lputv %weatherIcon.22 %tmp.389;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_440_147_12_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_false:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 147 19 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_155_12_if_stmt:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_23_147_140_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_23_147_106_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_23_147_72_begin:
-        %tmp.424 = lgetv %cond.24;
-        %tmp.425 = getm $.Toybox.Weather;
-        %tmp.426 = getv %tmp.425 :CONDITION_FOG;
-        %tmp.427 = eq %tmp.424 %tmp.426;
-        bt %tmp.427 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_56_147_72_false:
-        %tmp.429 = lgetv %cond.24;
-        %tmp.430 = getm $.Toybox.Weather;
-        %tmp.431 = getv %tmp.430 :CONDITION_MIST;
-        %tmp.432 = eq %tmp.429 %tmp.431;
-        push %tmp.432;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_56_147_72_end:
-        %tmp.433 = phi [%tmp.427 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_23_147_72_begin] [%tmp.432 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_56_147_72_false] [%tmp.433 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_56_147_72_end];
-        bt %tmp.433 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_90_147_106_false:
-        %tmp.435 = lgetv %cond.24;
-        %tmp.436 = getm $.Toybox.Weather;
-        %tmp.437 = getv %tmp.436 :CONDITION_HAZY;
-        %tmp.438 = eq %tmp.435 %tmp.437;
-        push %tmp.438;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_90_147_106_end:
-        %tmp.439 = phi [%tmp.433 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_23_147_106_begin] [%tmp.438 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_90_147_106_false] [%tmp.439 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_90_147_106_end];
-        bt %tmp.439 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_155_12_if_true;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_124_147_140_false:
-        %tmp.441 = lgetv %cond.24;
-        %tmp.442 = getm $.Toybox.Weather;
-        %tmp.443 = getv %tmp.442 :CONDITION_HAZE;
-        %tmp.444 = eq %tmp.441 %tmp.443;
-        push %tmp.444;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_124_147_140_end:
-        %tmp.445 = phi [%tmp.439 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_23_147_140_begin] [%tmp.444 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_124_147_140_false] [%tmp.445 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_124_147_140_end];
-        bf %tmp.445 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_155_12_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_155_12_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_156_149_12_start:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_161_12_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_23_147_113_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_23_147_73_begin:
+        %tmp.391 = lgetv %cond.25;
+        %tmp.392 = getm $.Toybox.Weather;
+        %tmp.393 = getv %tmp.392 :CONDITION_SNOW;
+        %tmp.394 = eq %tmp.391 %tmp.393;
+        bt %tmp.394 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_57_147_73_false:
+        %tmp.396 = lgetv %cond.25;
+        %tmp.397 = getm $.Toybox.Weather;
+        %tmp.398 = getv %tmp.397 :CONDITION_LIGHT_SNOW;
+        %tmp.399 = eq %tmp.396 %tmp.398;
+        push %tmp.399;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_57_147_73_end:
+        %tmp.400 = phi [%tmp.394 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_23_147_73_begin] [%tmp.399 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_57_147_73_false] [%tmp.400 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_57_147_73_end];
+        bt %tmp.400 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_97_147_113_false:
+        %tmp.402 = lgetv %cond.25;
+        %tmp.403 = getm $.Toybox.Weather;
+        %tmp.404 = getv %tmp.403 :CONDITION_HEAVY_SNOW;
+        %tmp.405 = eq %tmp.402 %tmp.404;
+        push %tmp.405;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_97_147_113_end:
+        %tmp.406 = phi [%tmp.400 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_23_147_113_begin] [%tmp.405 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_97_147_113_false] [%tmp.406 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_97_147_113_end];
+        bf %tmp.406 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_161_12_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_161_12_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_135_149_12_start:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 148 16 ]
-        %tmp.447 = getv ? :weather2HazeIcon;
-        lputv %weatherIcon.22 %tmp.447;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_156_149_12_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_155_12_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_155_12_if_false:
+        %tmp.408 = getv ? :weather2SnowIcon;
+        lputv %weatherIcon.22 %tmp.408;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_135_149_12_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_161_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_161_12_if_false:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 149 19 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_19_155_12_if_stmt:
-        %tmp.449 = lgetv %cond.24;
-        %tmp.450 = getm $.Toybox.Weather;
-        %tmp.451 = getv %tmp.450 :CONDITION_HAIL;
-        %tmp.452 = eq %tmp.449 %tmp.451;
-        bf %tmp.452 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_19_155_12_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_19_155_12_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_55_151_12_start:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_19_161_12_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_23_149_82_begin:
+        %tmp.410 = lgetv %cond.25;
+        %tmp.411 = getm $.Toybox.Weather;
+        %tmp.412 = getv %tmp.411 :CONDITION_THUNDERSTORMS;
+        %tmp.413 = eq %tmp.410 %tmp.412;
+        bt %tmp.413 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_66_149_82_false:
+        %tmp.415 = lgetv %cond.25;
+        %tmp.416 = getm $.Toybox.Weather;
+        %tmp.417 = getv %tmp.416 :CONDITION_SCATTERED_THUNDERSTORMS;
+        %tmp.418 = eq %tmp.415 %tmp.417;
+        push %tmp.418;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_66_149_82_end:
+        %tmp.419 = phi [%tmp.413 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_23_149_82_begin] [%tmp.418 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_66_149_82_false] [%tmp.419 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_66_149_82_end];
+        bf %tmp.419 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_19_161_12_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_19_161_12_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_117_151_12_start:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 150 16 ]
-        %tmp.454 = getv ? :weather2HailIcon;
-        lputv %weatherIcon.22 %tmp.454;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_55_151_12_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_19_155_12_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_19_155_12_if_false:
+        %tmp.421 = getv ? :weather2StormIcon;
+        lputv %weatherIcon.22 %tmp.421;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_117_151_12_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_19_161_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_19_161_12_if_false:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 151 19 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_155_12_if_stmt:
-        %tmp.456 = lgetv %cond.24;
-        %tmp.457 = getm $.Toybox.Weather;
-        %tmp.458 = getv %tmp.457 :CONDITION_TORNADO;
-        %tmp.459 = eq %tmp.456 %tmp.458;
-        bf %tmp.459 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_155_12_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_155_12_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_58_153_12_start:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_161_12_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_23_151_163_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_23_151_118_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_23_151_79_begin:
+        %tmp.423 = lgetv %cond.25;
+        %tmp.424 = getm $.Toybox.Weather;
+        %tmp.425 = getv %tmp.424 :CONDITION_WINTRY_MIX;
+        %tmp.426 = eq %tmp.423 %tmp.425;
+        bt %tmp.426 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_63_151_79_false:
+        %tmp.428 = lgetv %cond.25;
+        %tmp.429 = getm $.Toybox.Weather;
+        %tmp.430 = getv %tmp.429 :CONDITION_RAIN_SNOW;
+        %tmp.431 = eq %tmp.428 %tmp.430;
+        push %tmp.431;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_63_151_79_end:
+        %tmp.432 = phi [%tmp.426 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_23_151_79_begin] [%tmp.431 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_63_151_79_false] [%tmp.432 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_63_151_79_end];
+        bt %tmp.432 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_102_151_118_false:
+        %tmp.434 = lgetv %cond.25;
+        %tmp.435 = getm $.Toybox.Weather;
+        %tmp.436 = getv %tmp.435 :CONDITION_LIGHT_RAIN_SNOW;
+        %tmp.437 = eq %tmp.434 %tmp.436;
+        push %tmp.437;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_102_151_118_end:
+        %tmp.438 = phi [%tmp.432 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_23_151_118_begin] [%tmp.437 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_102_151_118_false] [%tmp.438 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_102_151_118_end];
+        bt %tmp.438 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_147_151_163_false:
+        %tmp.440 = lgetv %cond.25;
+        %tmp.441 = getm $.Toybox.Weather;
+        %tmp.442 = getv %tmp.441 :CONDITION_HEAVY_RAIN_SNOW;
+        %tmp.443 = eq %tmp.440 %tmp.442;
+        push %tmp.443;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_147_151_163_end:
+        %tmp.444 = phi [%tmp.438 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_23_151_163_begin] [%tmp.443 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_147_151_163_false] [%tmp.444 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_147_151_163_end];
+        bf %tmp.444 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_161_12_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_161_12_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_190_153_12_start:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 152 16 ]
-        %tmp.461 = getv ? :weather2TornadoIcon;
-        lputv %weatherIcon.22 %tmp.461;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_58_153_12_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_155_12_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_155_12_if_false:
+        %tmp.446 = getv ? :weather2SnowIcon;
+        lputv %weatherIcon.22 %tmp.446;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_190_153_12_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_161_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_161_12_if_false:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 153 19 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_19_155_12_if_stmt:
-        %tmp.463 = lgetv %cond.24;
-        %tmp.464 = getm $.Toybox.Weather;
-        %tmp.465 = getv %tmp.464 :CONDITION_WINDY;
-        %tmp.466 = eq %tmp.463 %tmp.465;
-        bf %tmp.466 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_19_155_12_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_19_155_12_if_true:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_19_155_12_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_19_155_12_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_155_12_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_19_155_12_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_155_12_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_155_12_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_19_155_12_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_155_12_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_19_155_12_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_137_19_155_12_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_135_19_155_12_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_133_12_155_12_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_36_156_8_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_8_156_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_8_156_8_if_end:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 159 8 ]
-        %tmp.468 = getv ? :View;
-        %tmp.469 = getv function %tmp.468 :onUpdate;
-        %tmp.471 = lgetv %dc;
-        invoke %tmp.468 %tmp.469(%tmp.471);
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 161 8 ]
-        %tmp.472 = lgetv %dc;
-        %tmp.473 = getv function %tmp.472 :setColor;
-        %tmp.474 = getm $.Toybox.Graphics;
-        %tmp.475 = getv %tmp.474 :COLOR_BLACK;
-        %tmp.476 = getm $.Toybox.Graphics;
-        %tmp.477 = getv %tmp.476 :COLOR_BLACK;
-        invoke %tmp.472 %tmp.473(%tmp.475, %tmp.477);
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 162 8 ]
-        %tmp.478 = lgetv %dc;
-        %tmp.479 = getv function %tmp.478 :drawLine;
-        %tmp.480 = 0;
-        %tmp.481 = 50;
-        %tmp.482 = 280;
-        %tmp.483 = 50;
-        invoke %tmp.478 %tmp.479(%tmp.480, %tmp.481, %tmp.482, %tmp.483);
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 163 8 ]
-        %tmp.484 = lgetv %dc;
-        %tmp.485 = getv function %tmp.484 :drawLine;
-        %tmp.486 = 150;
-        %tmp.487 = 50;
-        %tmp.488 = 150;
-        %tmp.489 = 164;
-        invoke %tmp.484 %tmp.485(%tmp.486, %tmp.487, %tmp.488, %tmp.489);
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 164 8 ]
-        %tmp.490 = lgetv %dc;
-        %tmp.491 = getv function %tmp.490 :drawLine;
-        %tmp.492 = 0;
-        %tmp.493 = 164;
-        %tmp.494 = 280;
-        %tmp.495 = 164;
-        invoke %tmp.490 %tmp.491(%tmp.492, %tmp.493, %tmp.494, %tmp.495);
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_19_161_12_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_23_153_140_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_23_153_106_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_23_153_72_begin:
+        %tmp.448 = lgetv %cond.25;
+        %tmp.449 = getm $.Toybox.Weather;
+        %tmp.450 = getv %tmp.449 :CONDITION_FOG;
+        %tmp.451 = eq %tmp.448 %tmp.450;
+        bt %tmp.451 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_56_153_72_false:
+        %tmp.453 = lgetv %cond.25;
+        %tmp.454 = getm $.Toybox.Weather;
+        %tmp.455 = getv %tmp.454 :CONDITION_MIST;
+        %tmp.456 = eq %tmp.453 %tmp.455;
+        push %tmp.456;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_56_153_72_end:
+        %tmp.457 = phi [%tmp.451 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_23_153_72_begin] [%tmp.456 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_56_153_72_false] [%tmp.457 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_56_153_72_end];
+        bt %tmp.457 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_90_153_106_false:
+        %tmp.459 = lgetv %cond.25;
+        %tmp.460 = getm $.Toybox.Weather;
+        %tmp.461 = getv %tmp.460 :CONDITION_HAZY;
+        %tmp.462 = eq %tmp.459 %tmp.461;
+        push %tmp.462;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_90_153_106_end:
+        %tmp.463 = phi [%tmp.457 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_23_153_106_begin] [%tmp.462 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_90_153_106_false] [%tmp.463 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_90_153_106_end];
+        bt %tmp.463 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_19_161_12_if_true;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_124_153_140_false:
+        %tmp.465 = lgetv %cond.25;
+        %tmp.466 = getm $.Toybox.Weather;
+        %tmp.467 = getv %tmp.466 :CONDITION_HAZE;
+        %tmp.468 = eq %tmp.465 %tmp.467;
+        push %tmp.468;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_124_153_140_end:
+        %tmp.469 = phi [%tmp.463 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_23_153_140_begin] [%tmp.468 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_124_153_140_false] [%tmp.469 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_124_153_140_end];
+        bf %tmp.469 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_19_161_12_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_19_161_12_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_156_155_12_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 154 16 ]
+        %tmp.471 = getv ? :weather2HazeIcon;
+        lputv %weatherIcon.22 %tmp.471;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_156_155_12_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_19_161_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_19_161_12_if_false:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 155 19 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_155_19_161_12_if_stmt:
+        %tmp.473 = lgetv %cond.25;
+        %tmp.474 = getm $.Toybox.Weather;
+        %tmp.475 = getv %tmp.474 :CONDITION_HAIL;
+        %tmp.476 = eq %tmp.473 %tmp.475;
+        bf %tmp.476 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_155_19_161_12_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_155_19_161_12_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_155_55_157_12_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 156 16 ]
+        %tmp.478 = getv ? :weather2HailIcon;
+        lputv %weatherIcon.22 %tmp.478;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_155_55_157_12_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_155_19_161_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_155_19_161_12_if_false:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 157 19 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_157_19_161_12_if_stmt:
+        %tmp.480 = lgetv %cond.25;
+        %tmp.481 = getm $.Toybox.Weather;
+        %tmp.482 = getv %tmp.481 :CONDITION_TORNADO;
+        %tmp.483 = eq %tmp.480 %tmp.482;
+        bf %tmp.483 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_157_19_161_12_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_157_19_161_12_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_157_58_159_12_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 158 16 ]
+        %tmp.485 = getv ? :weather2TornadoIcon;
+        lputv %weatherIcon.22 %tmp.485;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_157_58_159_12_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_157_19_161_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_157_19_161_12_if_false:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 159 19 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_159_19_161_12_if_stmt:
+        %tmp.487 = lgetv %cond.25;
+        %tmp.488 = getm $.Toybox.Weather;
+        %tmp.489 = getv %tmp.488 :CONDITION_WINDY;
+        %tmp.490 = eq %tmp.487 %tmp.489;
+        bf %tmp.490 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_159_19_161_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_159_19_161_12_if_true:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_159_19_161_12_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_159_19_161_12_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_157_19_161_12_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_155_19_161_12_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_153_19_161_12_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_151_19_161_12_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_149_19_161_12_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_147_19_161_12_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_145_19_161_12_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_143_19_161_12_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_141_19_161_12_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_139_12_161_12_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_36_162_8_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_8_162_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_129_8_162_8_if_end:
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 165 8 ]
-        %tmp.496 = lgetv %dc;
-        %tmp.497 = getv function %tmp.496 :drawLine;
-        %tmp.498 = 0;
-        %tmp.499 = 210;
-        %tmp.500 = 280;
-        %tmp.501 = 210;
-        invoke %tmp.496 %tmp.497(%tmp.498, %tmp.499, %tmp.500, %tmp.501);
+        %tmp.492 = getv ? :View;
+        %tmp.493 = getv function %tmp.492 :onUpdate;
+        %tmp.495 = lgetv %dc;
+        invoke %tmp.492 %tmp.493(%tmp.495);
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 167 8 ]
-        %tmp.502 = lgetv %dc;
-        %tmp.503 = getv function %tmp.502 :drawBitmap;
-        %tmp.504 = 125;
-        %tmp.505 = 220;
-        %tmp.507 = getv ? :batteryIcon;
-        invoke %tmp.502 %tmp.503(%tmp.504, %tmp.505, %tmp.507);
+        %tmp.496 = lgetv %dc;
+        %tmp.497 = getv function %tmp.496 :setColor;
+        %tmp.498 = getm $.Toybox.Graphics;
+        %tmp.499 = getv %tmp.498 :COLOR_BLACK;
+        %tmp.500 = getm $.Toybox.Graphics;
+        %tmp.501 = getv %tmp.500 :COLOR_BLACK;
+        invoke %tmp.496 %tmp.497(%tmp.499, %tmp.501);
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 168 8 ]
-        %tmp.508 = lgetv %dc;
-        %tmp.509 = getv function %tmp.508 :drawBitmap;
-        %tmp.510 = 110;
-        %tmp.511 = 175;
-        %tmp.513 = getv ? :imageFootsteps;
-        invoke %tmp.508 %tmp.509(%tmp.510, %tmp.511, %tmp.513);
+        %tmp.502 = lgetv %dc;
+        %tmp.503 = getv function %tmp.502 :drawLine;
+        %tmp.504 = 0;
+        %tmp.505 = 50;
+        %tmp.506 = 280;
+        %tmp.507 = 50;
+        invoke %tmp.502 %tmp.503(%tmp.504, %tmp.505, %tmp.506, %tmp.507);
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 169 8 ]
+        %tmp.508 = lgetv %dc;
+        %tmp.509 = getv function %tmp.508 :drawLine;
+        %tmp.510 = 150;
+        %tmp.511 = 50;
+        %tmp.512 = 150;
+        %tmp.513 = 164;
+        invoke %tmp.508 %tmp.509(%tmp.510, %tmp.511, %tmp.512, %tmp.513);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 170 8 ]
         %tmp.514 = lgetv %dc;
-        %tmp.515 = getv function %tmp.514 :drawBitmap;
-        %tmp.516 = 120;
-        %tmp.517 = 17;
-        %tmp.519 = getv ? :personIcon;
-        invoke %tmp.514 %tmp.515(%tmp.516, %tmp.517, %tmp.519);
+        %tmp.515 = getv function %tmp.514 :drawLine;
+        %tmp.516 = 0;
+        %tmp.517 = 164;
+        %tmp.518 = 280;
+        %tmp.519 = 164;
+        invoke %tmp.514 %tmp.515(%tmp.516, %tmp.517, %tmp.518, %tmp.519);
 [ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 171 8 ]
         %tmp.520 = lgetv %dc;
-        %tmp.521 = getv function %tmp.520 :drawBitmap;
-        %tmp.522 = 175;
-        %tmp.523 = 47;
-        %tmp.525 = lgetv %weatherIcon.22;
-        invoke %tmp.520 %tmp.521(%tmp.522, %tmp.523, %tmp.525);
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_172_4_stop:
+        %tmp.521 = getv function %tmp.520 :drawLine;
+        %tmp.522 = 0;
+        %tmp.523 = 210;
+        %tmp.524 = 280;
+        %tmp.525 = 210;
+        invoke %tmp.520 %tmp.521(%tmp.522, %tmp.523, %tmp.524, %tmp.525);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 173 8 ]
+        %tmp.526 = lgetv %dc;
+        %tmp.527 = getv function %tmp.526 :drawBitmap;
+        %tmp.528 = 125;
+        %tmp.529 = 220;
+        %tmp.531 = getv ? :batteryIcon;
+        invoke %tmp.526 %tmp.527(%tmp.528, %tmp.529, %tmp.531);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 174 8 ]
+        %tmp.532 = lgetv %dc;
+        %tmp.533 = getv function %tmp.532 :drawBitmap;
+        %tmp.534 = 110;
+        %tmp.535 = 175;
+        %tmp.537 = getv ? :imageFootsteps;
+        invoke %tmp.532 %tmp.533(%tmp.534, %tmp.535, %tmp.537);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 175 8 ]
+        %tmp.538 = lgetv %dc;
+        %tmp.539 = getv function %tmp.538 :drawBitmap;
+        %tmp.540 = 120;
+        %tmp.541 = 17;
+        %tmp.543 = getv ? :personIcon;
+        invoke %tmp.538 %tmp.539(%tmp.540, %tmp.541, %tmp.543);
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 177 8 ]
+        %tmp.544 = lgetv %dc;
+        %tmp.545 = getv function %tmp.544 :drawBitmap;
+        %tmp.546 = 170;
+        %tmp.547 = 48;
+        %tmp.549 = lgetv %weatherIcon.22;
+        invoke %tmp.544 %tmp.545(%tmp.546, %tmp.547, %tmp.549);
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_52_40_178_4_stop:
     }
-    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 177; ]
+    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 183; ]
     function onHide() as Void {
     }
-    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 181; ]
+    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 187; ]
     function onExitSleep() as Void {
     }
-    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 185; ]
+    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 191; ]
     function onEnterSleep() as Void {
     }
-    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 188; ]
+    [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 194; ]
     function getBodyBattery() as String {
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_188_40_210_4_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 189 8 ]
-        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_188_40_210_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_188_40_210_4_stop" ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_194_40_216_4_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 195 8 ]
+        [ "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_194_40_216_4_start" "_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_194_40_216_4_stop" ]
         %bodybattery.1 = local;
         %tmp.1 = null;
         lputv %bodybattery.1 %tmp.1;
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 190 8 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_190_8_197_8_if_stmt:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_191_12_192_38_begin:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 196 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_196_8_203_8_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_197_12_198_38_begin:
         %tmp.3 = getv ? :Toybox;
         %tmp.5 = const :SensorHistory;
         %tmp.6 = canhazplz %tmp.3 %tmp.5;
-        bf %tmp.6 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_190_8_197_8_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_192_12_192_38_true:
+        bf %tmp.6 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_196_8_203_8_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_198_12_198_38_true:
         %tmp.8 = getv ? :Toybox;
         %tmp.9 = as %tmp.8 { (interface { var SensorHistory; }) };
         %tmp.10 = getv %tmp.9 :SensorHistory;
         %tmp.12 = const :getBodyBatteryHistory;
         %tmp.13 = canhazplz %tmp.10 %tmp.12;
         push %tmp.13;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_192_12_192_38_end:
-        %tmp.14 = phi [%tmp.6 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_191_12_192_38_begin] [%tmp.13 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_192_12_192_38_true] [%tmp.14 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_192_12_192_38_end];
-        bf %tmp.14 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_190_8_197_8_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_190_8_197_8_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_193_10_195_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 194 12 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_198_12_198_38_end:
+        %tmp.14 = phi [%tmp.6 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_197_12_198_38_begin] [%tmp.13 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_198_12_198_38_true] [%tmp.14 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_198_12_198_38_end];
+        bf %tmp.14 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_196_8_203_8_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_196_8_203_8_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_199_10_201_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 200 12 ]
         %tmp.15 = getm $.Toybox.SensorHistory;
         %tmp.16 = getv function %tmp.15 :getBodyBatteryHistory;
         %tmp.17 = newd 1;
@@ -1119,77 +1161,77 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_193_1
         %tmp.22 = aputv %tmp.21 %tmp.19 %tmp.20;
         %tmp.23 = invoke %tmp.15 %tmp.16(%tmp.22);
         lputv %bodybattery.1 %tmp.23;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_193_10_195_8_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_190_8_197_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_190_8_197_8_if_false:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_195_15_197_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 196 12 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_199_10_201_8_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_196_8_203_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_196_8_203_8_if_false:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_201_15_203_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 202 12 ]
         %tmp.24 = "-";
         ret %tmp.24;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_195_15_197_8_stop:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_190_8_197_8_if_end:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 198 8 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_198_8_200_8_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_201_15_203_8_stop:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_196_8_203_8_if_end:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 204 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_204_8_206_8_if_stmt:
         %tmp.26 = lgetv %bodybattery.1;
         %tmp.27 = null;
         %tmp.28 = ne %tmp.26 %tmp.27;
-        bf %tmp.28 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_198_8_200_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_198_8_200_8_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_198_33_200_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 199 12 ]
+        bf %tmp.28 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_204_8_206_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_204_8_206_8_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_204_33_206_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 205 12 ]
         %tmp.29 = lgetv %bodybattery.1;
         %tmp.30 = as %tmp.29 { (!Null) };
         %tmp.31 = getv function %tmp.30 :next;
         %tmp.32 = invoke %tmp.30 %tmp.31();
         lputv %bodybattery.1 %tmp.32;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_198_33_200_8_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_198_8_200_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_198_8_200_8_if_end:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 201 8 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_201_8_203_8_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_204_33_206_8_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_204_8_206_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_204_8_206_8_if_end:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 207 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_207_8_209_8_if_stmt:
         %tmp.34 = lgetv %bodybattery.1;
         %tmp.35 = null;
         %tmp.36 = ne %tmp.34 %tmp.35;
-        bf %tmp.36 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_201_8_203_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_201_8_203_8_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_201_33_203_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 202 12 ]
+        bf %tmp.36 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_207_8_209_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_207_8_209_8_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_207_33_209_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 208 12 ]
         %tmp.37 = lgetv %bodybattery.1;
         %tmp.38 = as %tmp.37 { (!Null) };
         %tmp.39 = getv %tmp.38 :data;
         lputv %bodybattery.1 %tmp.39;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_201_33_203_8_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_201_8_203_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_201_8_203_8_if_end:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 205 8 ]
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_8_209_8_if_stmt:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_12_205_70_begin:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_12_205_50_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_207_33_209_8_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_207_8_209_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_207_8_209_8_if_end:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 211 8 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_8_215_8_if_stmt:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_12_211_70_begin:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_12_211_50_begin:
         %tmp.41 = lgetv %bodybattery.1;
         %tmp.42 = null;
         %tmp.43 = ne %tmp.41 %tmp.42;
-        bf %tmp.43 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_8_209_8_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_35_205_50_true:
+        bf %tmp.43 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_8_215_8_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_35_211_50_true:
         %tmp.45 = lgetv %bodybattery.1;
         %tmp.46 = as %tmp.45 { (!Null) };
         %tmp.47 = 0;
         %tmp.48 = gte %tmp.46 %tmp.47;
         push %tmp.48;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_35_205_50_end:
-        %tmp.49 = phi [%tmp.43 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_12_205_50_begin] [%tmp.48 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_35_205_50_true] [%tmp.49 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_35_205_50_end];
-        bf %tmp.49 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_8_209_8_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_55_205_70_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_35_211_50_end:
+        %tmp.49 = phi [%tmp.43 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_12_211_50_begin] [%tmp.48 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_35_211_50_true] [%tmp.49 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_35_211_50_end];
+        bf %tmp.49 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_8_215_8_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_55_211_70_true:
         %tmp.51 = lgetv %bodybattery.1;
         %tmp.52 = as %tmp.51 { (!Null) };
         %tmp.53 = 100;
         %tmp.54 = lte %tmp.52 %tmp.53;
         push %tmp.54;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_55_205_70_end:
-        %tmp.55 = phi [%tmp.49 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_12_205_70_begin] [%tmp.54 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_55_205_70_true] [%tmp.55 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_55_205_70_end];
-        bf %tmp.55 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_8_209_8_if_false;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_8_209_8_if_true:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_75_207_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 206 12 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_55_211_70_end:
+        %tmp.55 = phi [%tmp.49 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_12_211_70_begin] [%tmp.54 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_55_211_70_true] [%tmp.55 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_55_211_70_end];
+        bf %tmp.55 @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_8_215_8_if_false;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_8_215_8_if_true:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_75_213_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 212 12 ]
         %tmp.56 = lgetv %bodybattery.1;
         %tmp.57 = as %tmp.56 { (!Null) };
         %tmp.58 = getv function %tmp.57 :format;
@@ -1198,16 +1240,16 @@ _Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_7
         %tmp.61 = "%";
         %tmp.62 = add %tmp.60 %tmp.61;
         ret %tmp.62;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_75_207_8_stop:
-        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_8_209_8_if_end;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_8_209_8_if_false:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_207_15_209_8_start:
-[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 208 12 ]
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_75_213_8_stop:
+        goto @_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_8_215_8_if_end;
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_8_215_8_if_false:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_213_15_215_8_start:
+[ "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" 214 12 ]
         %tmp.63 = "-";
         ret %tmp.63;
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_207_15_209_8_stop:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_205_8_209_8_if_end:
-_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_188_40_210_4_stop:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_213_15_215_8_stop:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_211_8_215_8_if_end:
+_Users_ai_Workspace_WatchFaces_XLWatchFace955_source_XLWatchFace955View_mc_194_40_216_4_stop:
     }
 }
 [ @file = "/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc"; @line = 1; ]

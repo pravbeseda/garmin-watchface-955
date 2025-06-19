@@ -28,18 +28,18 @@
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="10" lineNum="40" parent="globals/XLWatchFace955View" pc="268435996" symbol="onLayout"/>
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="10" lineNum="41" parent="globals/XLWatchFace955View" pc="268436034" symbol="onLayout"/>
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="10" lineNum="42" parent="globals/XLWatchFace955View" pc="268436072" symbol="onLayout"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="188" parent="globals/XLWatchFace955View" pc="268436106" symbol="getBodyBattery"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="189" parent="globals/XLWatchFace955View" pc="268436109" symbol="getBodyBattery"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="190" parent="globals/XLWatchFace955View" pc="268436112" symbol="getBodyBattery"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="194" parent="globals/XLWatchFace955View" pc="268436147" symbol="getBodyBattery"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="196" parent="globals/XLWatchFace955View" pc="268436177" symbol="getBodyBattery"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="198" parent="globals/XLWatchFace955View" pc="268436183" symbol="getBodyBattery"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="199" parent="globals/XLWatchFace955View" pc="268436189" symbol="getBodyBattery"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="201" parent="globals/XLWatchFace955View" pc="268436199" symbol="getBodyBattery"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="202" parent="globals/XLWatchFace955View" pc="268436205" symbol="getBodyBattery"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="205" parent="globals/XLWatchFace955View" pc="268436214" symbol="getBodyBattery"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="206" parent="globals/XLWatchFace955View" pc="268436235" symbol="getBodyBattery"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="208" parent="globals/XLWatchFace955View" pc="268436257" symbol="getBodyBattery"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="194" parent="globals/XLWatchFace955View" pc="268436106" symbol="getBodyBattery"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="195" parent="globals/XLWatchFace955View" pc="268436109" symbol="getBodyBattery"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="196" parent="globals/XLWatchFace955View" pc="268436112" symbol="getBodyBattery"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="200" parent="globals/XLWatchFace955View" pc="268436147" symbol="getBodyBattery"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="202" parent="globals/XLWatchFace955View" pc="268436177" symbol="getBodyBattery"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="204" parent="globals/XLWatchFace955View" pc="268436183" symbol="getBodyBattery"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="205" parent="globals/XLWatchFace955View" pc="268436189" symbol="getBodyBattery"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="207" parent="globals/XLWatchFace955View" pc="268436199" symbol="getBodyBattery"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="208" parent="globals/XLWatchFace955View" pc="268436205" symbol="getBodyBattery"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="211" parent="globals/XLWatchFace955View" pc="268436214" symbol="getBodyBattery"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="212" parent="globals/XLWatchFace955View" pc="268436235" symbol="getBodyBattery"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="11" lineNum="214" parent="globals/XLWatchFace955View" pc="268436257" symbol="getBodyBattery"/>
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="13" lineNum="24" parent="globals/XLWatchFace955View" pc="268436263" symbol="initialize"/>
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="13" lineNum="25" parent="globals/XLWatchFace955View" pc="268436265" symbol="initialize"/>
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="52" parent="globals/XLWatchFace955View" pc="268436278" symbol="onUpdate"/>
@@ -90,55 +90,60 @@
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="130" parent="globals/XLWatchFace955View" pc="268437114" symbol="onUpdate"/>
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="131" parent="globals/XLWatchFace955View" pc="268437138" symbol="onUpdate"/>
         <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="132" parent="globals/XLWatchFace955View" pc="268437174" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="133" parent="globals/XLWatchFace955View" pc="268437183" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="134" parent="globals/XLWatchFace955View" pc="268437214" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="135" parent="globals/XLWatchFace955View" pc="268437224" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="136" parent="globals/XLWatchFace955View" pc="268437240" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="137" parent="globals/XLWatchFace955View" pc="268437250" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="138" parent="globals/XLWatchFace955View" pc="268437258" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="139" parent="globals/XLWatchFace955View" pc="268437268" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="140" parent="globals/XLWatchFace955View" pc="268437348" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="141" parent="globals/XLWatchFace955View" pc="268437358" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="142" parent="globals/XLWatchFace955View" pc="268437382" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="143" parent="globals/XLWatchFace955View" pc="268437392" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="144" parent="globals/XLWatchFace955View" pc="268437408" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="145" parent="globals/XLWatchFace955View" pc="268437418" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="146" parent="globals/XLWatchFace955View" pc="268437450" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="147" parent="globals/XLWatchFace955View" pc="268437460" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="148" parent="globals/XLWatchFace955View" pc="268437492" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="149" parent="globals/XLWatchFace955View" pc="268437502" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="150" parent="globals/XLWatchFace955View" pc="268437510" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="151" parent="globals/XLWatchFace955View" pc="268437520" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="152" parent="globals/XLWatchFace955View" pc="268437528" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="153" parent="globals/XLWatchFace955View" pc="268437538" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="159" parent="globals/XLWatchFace955View" pc="268437546" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="161" parent="globals/XLWatchFace955View" pc="268437566" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="162" parent="globals/XLWatchFace955View" pc="268437578" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="163" parent="globals/XLWatchFace955View" pc="268437596" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="164" parent="globals/XLWatchFace955View" pc="268437617" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="165" parent="globals/XLWatchFace955View" pc="268437637" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="167" parent="globals/XLWatchFace955View" pc="268437657" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="168" parent="globals/XLWatchFace955View" pc="268437677" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="169" parent="globals/XLWatchFace955View" pc="268437697" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="171" parent="globals/XLWatchFace955View" pc="268437716" symbol="onUpdate"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955App.mc" id="17" lineNum="25" parent="globals/XLWatchFace955App" pc="268437734" symbol="onSettingsChanged"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955App.mc" id="17" lineNum="26" parent="globals/XLWatchFace955App" pc="268437736" symbol="onSettingsChanged"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955App.mc" id="18" lineNum="20" parent="globals/XLWatchFace955App" pc="268437748" symbol="getInitialView"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955App.mc" id="18" lineNum="21" parent="globals/XLWatchFace955App" pc="268437750" symbol="getInitialView"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955App.mc" id="19" lineNum="7" parent="globals/XLWatchFace955App" pc="268437780" symbol="initialize"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955App.mc" id="19" lineNum="8" parent="globals/XLWatchFace955App" pc="268437782" symbol="initialize"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="27" parent="globals/Rez/Layouts" pc="268437795" symbol="WatchFace"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="28" parent="globals/Rez/Layouts" pc="268437806" symbol="WatchFace"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="30" parent="globals/Rez/Layouts" pc="268437830" symbol="WatchFace"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="32" parent="globals/Rez/Layouts" pc="268437910" symbol="WatchFace"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="34" parent="globals/Rez/Layouts" pc="268437991" symbol="WatchFace"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="36" parent="globals/Rez/Layouts" pc="268438072" symbol="WatchFace"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="38" parent="globals/Rez/Layouts" pc="268438151" symbol="WatchFace"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="40" parent="globals/Rez/Layouts" pc="268438231" symbol="WatchFace"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="42" parent="globals/Rez/Layouts" pc="268438312" symbol="WatchFace"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="44" parent="globals/Rez/Layouts" pc="268438391" symbol="WatchFace"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="46" parent="globals/Rez/Layouts" pc="268438471" symbol="WatchFace"/>
-        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="48" parent="globals/Rez/Layouts" pc="268438551" symbol="WatchFace"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="133" parent="globals/XLWatchFace955View" pc="268437198" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="134" parent="globals/XLWatchFace955View" pc="268437209" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="136" parent="globals/XLWatchFace955View" pc="268437248" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="138" parent="globals/XLWatchFace955View" pc="268437263" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="139" parent="globals/XLWatchFace955View" pc="268437272" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="140" parent="globals/XLWatchFace955View" pc="268437303" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="141" parent="globals/XLWatchFace955View" pc="268437313" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="142" parent="globals/XLWatchFace955View" pc="268437329" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="143" parent="globals/XLWatchFace955View" pc="268437339" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="144" parent="globals/XLWatchFace955View" pc="268437347" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="145" parent="globals/XLWatchFace955View" pc="268437357" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="146" parent="globals/XLWatchFace955View" pc="268437437" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="147" parent="globals/XLWatchFace955View" pc="268437447" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="148" parent="globals/XLWatchFace955View" pc="268437471" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="149" parent="globals/XLWatchFace955View" pc="268437481" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="150" parent="globals/XLWatchFace955View" pc="268437497" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="151" parent="globals/XLWatchFace955View" pc="268437507" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="152" parent="globals/XLWatchFace955View" pc="268437539" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="153" parent="globals/XLWatchFace955View" pc="268437549" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="154" parent="globals/XLWatchFace955View" pc="268437581" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="155" parent="globals/XLWatchFace955View" pc="268437591" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="156" parent="globals/XLWatchFace955View" pc="268437599" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="157" parent="globals/XLWatchFace955View" pc="268437609" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="158" parent="globals/XLWatchFace955View" pc="268437617" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="159" parent="globals/XLWatchFace955View" pc="268437627" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="165" parent="globals/XLWatchFace955View" pc="268437635" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="167" parent="globals/XLWatchFace955View" pc="268437655" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="168" parent="globals/XLWatchFace955View" pc="268437667" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="169" parent="globals/XLWatchFace955View" pc="268437685" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="170" parent="globals/XLWatchFace955View" pc="268437706" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="171" parent="globals/XLWatchFace955View" pc="268437726" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="173" parent="globals/XLWatchFace955View" pc="268437746" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="174" parent="globals/XLWatchFace955View" pc="268437766" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="175" parent="globals/XLWatchFace955View" pc="268437786" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955View.mc" id="15" lineNum="177" parent="globals/XLWatchFace955View" pc="268437805" symbol="onUpdate"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955App.mc" id="17" lineNum="25" parent="globals/XLWatchFace955App" pc="268437823" symbol="onSettingsChanged"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955App.mc" id="17" lineNum="26" parent="globals/XLWatchFace955App" pc="268437825" symbol="onSettingsChanged"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955App.mc" id="18" lineNum="20" parent="globals/XLWatchFace955App" pc="268437837" symbol="getInitialView"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955App.mc" id="18" lineNum="21" parent="globals/XLWatchFace955App" pc="268437839" symbol="getInitialView"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955App.mc" id="19" lineNum="7" parent="globals/XLWatchFace955App" pc="268437869" symbol="initialize"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/source/XLWatchFace955App.mc" id="19" lineNum="8" parent="globals/XLWatchFace955App" pc="268437871" symbol="initialize"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="27" parent="globals/Rez/Layouts" pc="268437884" symbol="WatchFace"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="28" parent="globals/Rez/Layouts" pc="268437895" symbol="WatchFace"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="30" parent="globals/Rez/Layouts" pc="268437919" symbol="WatchFace"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="32" parent="globals/Rez/Layouts" pc="268437999" symbol="WatchFace"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="34" parent="globals/Rez/Layouts" pc="268438080" symbol="WatchFace"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="36" parent="globals/Rez/Layouts" pc="268438161" symbol="WatchFace"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="38" parent="globals/Rez/Layouts" pc="268438240" symbol="WatchFace"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="40" parent="globals/Rez/Layouts" pc="268438320" symbol="WatchFace"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="42" parent="globals/Rez/Layouts" pc="268438401" symbol="WatchFace"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="44" parent="globals/Rez/Layouts" pc="268438480" symbol="WatchFace"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="46" parent="globals/Rez/Layouts" pc="268438560" symbol="WatchFace"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="48" parent="globals/Rez/Layouts" pc="268438640" symbol="WatchFace"/>
+        <entry filename="/Users/ai/Workspace/WatchFaces/XLWatchFace955/gen/006-B4024-00/source/Rez.mcgen" id="21" lineNum="50" parent="globals/Rez/Layouts" pc="268438723" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -230,32 +235,33 @@
         <entry endPc="268435570" name="dictionary" stackId="1" startPc="268435537"/>
         <entry arg="true" endPc="268435613" name="dc" stackId="1" startPc="268435572"/>
         <entry arg="true" endPc="268436105" name="dc" stackId="1" startPc="268435614"/>
-        <entry arg="true" endPc="268437733" name="dc" stackId="1" startPc="268436278"/>
-        <entry endPc="268437732" name="timeFormat" stackId="2" startPc="268436281"/>
-        <entry endPc="268437732" name="clockTime" stackId="3" startPc="268436281"/>
-        <entry endPc="268437732" name="hours" stackId="4" startPc="268436281"/>
-        <entry endPc="268437732" name="timeString" stackId="5" startPc="268436281"/>
-        <entry endPc="268437732" name="time" stackId="6" startPc="268436281"/>
-        <entry endPc="268437732" name="batteryPercent" stackId="7" startPc="268436281"/>
-        <entry endPc="268437732" name="batteryInDays" stackId="8" startPc="268436281"/>
-        <entry endPc="268437732" name="battery" stackId="9" startPc="268436281"/>
-        <entry endPc="268437732" name="batteryDays" stackId="10" startPc="268436281"/>
-        <entry endPc="268437732" name="today" stackId="11" startPc="268436281"/>
-        <entry endPc="268437732" name="dateString" stackId="12" startPc="268436281"/>
-        <entry endPc="268437732" name="dayLabel" stackId="13" startPc="268436281"/>
-        <entry endPc="268437732" name="activity" stackId="14" startPc="268436281"/>
-        <entry endPc="268437732" name="stepsLabel" stackId="15" startPc="268436281"/>
-        <entry endPc="268437732" name="stepsString" stackId="16" startPc="268436281"/>
-        <entry endPc="268437732" name="distanceLabel" stackId="17" startPc="268436281"/>
-        <entry endPc="268437732" name="stressScore" stackId="18" startPc="268436281"/>
-        <entry endPc="268437732" name="stressLabel" stackId="19" startPc="268436281"/>
-        <entry endPc="268437732" name="bodyBattery" stackId="20" startPc="268436281"/>
-        <entry endPc="268437732" name="bodyBatteryLabel" stackId="21" startPc="268436281"/>
-        <entry endPc="268437732" name="currentWeather" stackId="22" startPc="268436281"/>
-        <entry endPc="268437732" name="weatherIcon" stackId="23" startPc="268436281"/>
-        <entry endPc="268437545" name="weatherLabel" stackId="24" startPc="268437114"/>
-        <entry endPc="268437545" name="cond" stackId="25" startPc="268437114"/>
-        <entry arg="true" endPc="268438605" name="dc" stackId="1" startPc="268437795"/>
+        <entry arg="true" endPc="268437822" name="dc" stackId="1" startPc="268436278"/>
+        <entry endPc="268437821" name="timeFormat" stackId="2" startPc="268436281"/>
+        <entry endPc="268437821" name="clockTime" stackId="3" startPc="268436281"/>
+        <entry endPc="268437821" name="hours" stackId="4" startPc="268436281"/>
+        <entry endPc="268437821" name="timeString" stackId="5" startPc="268436281"/>
+        <entry endPc="268437821" name="time" stackId="6" startPc="268436281"/>
+        <entry endPc="268437821" name="batteryPercent" stackId="7" startPc="268436281"/>
+        <entry endPc="268437821" name="batteryInDays" stackId="8" startPc="268436281"/>
+        <entry endPc="268437821" name="battery" stackId="9" startPc="268436281"/>
+        <entry endPc="268437821" name="batteryDays" stackId="10" startPc="268436281"/>
+        <entry endPc="268437821" name="today" stackId="11" startPc="268436281"/>
+        <entry endPc="268437821" name="dateString" stackId="12" startPc="268436281"/>
+        <entry endPc="268437821" name="dayLabel" stackId="13" startPc="268436281"/>
+        <entry endPc="268437821" name="activity" stackId="14" startPc="268436281"/>
+        <entry endPc="268437821" name="stepsLabel" stackId="15" startPc="268436281"/>
+        <entry endPc="268437821" name="stepsString" stackId="16" startPc="268436281"/>
+        <entry endPc="268437821" name="distanceLabel" stackId="17" startPc="268436281"/>
+        <entry endPc="268437821" name="stressScore" stackId="18" startPc="268436281"/>
+        <entry endPc="268437821" name="stressLabel" stackId="19" startPc="268436281"/>
+        <entry endPc="268437821" name="bodyBattery" stackId="20" startPc="268436281"/>
+        <entry endPc="268437821" name="bodyBatteryLabel" stackId="21" startPc="268436281"/>
+        <entry endPc="268437821" name="currentWeather" stackId="22" startPc="268436281"/>
+        <entry endPc="268437821" name="weatherIcon" stackId="23" startPc="268436281"/>
+        <entry endPc="268437634" name="weatherLabel" stackId="24" startPc="268437114"/>
+        <entry endPc="268437634" name="humidityLabel" stackId="25" startPc="268437114"/>
+        <entry endPc="268437634" name="cond" stackId="26" startPc="268437114"/>
+        <entry arg="true" endPc="268438782" name="dc" stackId="1" startPc="268437884"/>
     </localVars>
     <deviceInfo deviceVersion="3ec88d10900803ee2943328b35e298d1bb9907df" partNumber="006-B4024-00"/>
     <annotations>
@@ -349,7 +355,7 @@
         <functionEntry accessMode="public" name="onHide" parent="XLWatchFace955View">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437733" name="onUpdate" parent="XLWatchFace955View" startPc="268436278">
+        <functionEntry accessMode="public" endPc="268437822" name="onUpdate" parent="XLWatchFace955View" startPc="268436278">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -357,20 +363,20 @@
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437747" name="onSettingsChanged" parent="XLWatchFace955App" startPc="268437734">
+        <functionEntry accessMode="public" endPc="268437836" name="onSettingsChanged" parent="XLWatchFace955App" startPc="268437823">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437779" name="getInitialView" parent="XLWatchFace955App" startPc="268437748">
+        <functionEntry accessMode="public" endPc="268437868" name="getInitialView" parent="XLWatchFace955App" startPc="268437837">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437794" name="initialize" parent="XLWatchFace955App" startPc="268437780">
+        <functionEntry accessMode="public" endPc="268437883" name="initialize" parent="XLWatchFace955App" startPc="268437869">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onStop" parent="XLWatchFace955App">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438605" name="WatchFace" parent="Layouts" startPc="268437795">
+        <functionEntry accessMode="public" endPc="268438782" name="WatchFace" parent="Layouts" startPc="268437884">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
