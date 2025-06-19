@@ -11,32 +11,15 @@ class XLWatchFace955View extends WatchUi.WatchFace {
     var imageFootsteps;
     var batteryIcon;
     var personIcon;
-    var weatherDayClearIcon;
-    var weatherNightClearIcon;
-    var weatherCloudyIcon;
-    var weatherOvercastIcon;
-    var weatherRainIcon;
-    var weatherRainThunderIcon;
-    var weatherSnowIcon;
-    var weatherSnowThunderIcon;
-    var weatherSleetIcon;
-    var weatherFogIcon;
-    var weatherMistIcon;
-    var weatherThunderIcon;
-    var weatherTornadoIcon;
-    var weatherWindIcon;
-    var weatherDayPartialCloudIcon;
-    var weatherNightPartialCloudIcon;
-    var weatherDayRainIcon;
-    var weatherNightRainIcon;
-    var weatherDaySnowIcon;
-    var weatherNightSnowIcon;
-    var weatherDaySleetIcon;
-    var weatherNightSleetIcon;
-    var weatherDayRainThunderIcon;
-    var weatherNightRainThunderIcon;
-    var weatherDaySnowThunderIcon;
-    var weatherNightSnowThunderIcon;
+    var weather2SunIcon;
+    var weather2PartlySunnyIcon;
+    var weather2CloudIcon;
+    var weather2RainIcon;
+    var weather2SnowIcon;
+    var weather2StormIcon;
+    var weather2HazeIcon;
+    var weather2HailIcon;
+    var weather2TornadoIcon;
 
     function initialize() {
         WatchFace.initialize();
@@ -47,32 +30,15 @@ class XLWatchFace955View extends WatchUi.WatchFace {
         imageFootsteps = Application.loadResource( Rez.Drawables.footsteps ) as BitmapResource;
         batteryIcon = Application.loadResource( Rez.Drawables.battery ) as BitmapResource;
         personIcon = Application.loadResource( Rez.Drawables.person ) as BitmapResource;
-        weatherDayClearIcon = Application.loadResource(Rez.Drawables.weather_day_clear) as BitmapResource;
-        weatherNightClearIcon = Application.loadResource(Rez.Drawables.weather_night_clear) as BitmapResource;
-        weatherCloudyIcon = Application.loadResource(Rez.Drawables.weather_cloudy) as BitmapResource;
-        weatherOvercastIcon = Application.loadResource(Rez.Drawables.weather_overcast) as BitmapResource;
-        weatherRainIcon = Application.loadResource(Rez.Drawables.weather_rain) as BitmapResource;
-        weatherRainThunderIcon = Application.loadResource(Rez.Drawables.weather_rain_thunder) as BitmapResource;
-        weatherSnowIcon = Application.loadResource(Rez.Drawables.weather_snow) as BitmapResource;
-        weatherSnowThunderIcon = Application.loadResource(Rez.Drawables.weather_snow_thunder) as BitmapResource;
-        weatherSleetIcon = Application.loadResource(Rez.Drawables.weather_sleet) as BitmapResource;
-        weatherFogIcon = Application.loadResource(Rez.Drawables.weather_fog) as BitmapResource;
-        weatherMistIcon = Application.loadResource(Rez.Drawables.weather_mist) as BitmapResource;
-        weatherThunderIcon = Application.loadResource(Rez.Drawables.weather_thunder) as BitmapResource;
-        weatherTornadoIcon = Application.loadResource(Rez.Drawables.weather_tornado) as BitmapResource;
-        weatherWindIcon = Application.loadResource(Rez.Drawables.weather_wind) as BitmapResource;
-        weatherDayPartialCloudIcon = Application.loadResource(Rez.Drawables.weather_day_partial_cloud) as BitmapResource;
-        weatherNightPartialCloudIcon = Application.loadResource(Rez.Drawables.weather_night_partial_cloud) as BitmapResource;
-        weatherDayRainIcon = Application.loadResource(Rez.Drawables.weather_day_rain) as BitmapResource;
-        weatherNightRainIcon = Application.loadResource(Rez.Drawables.weather_night_rain) as BitmapResource;
-        weatherDaySnowIcon = Application.loadResource(Rez.Drawables.weather_day_snow) as BitmapResource;
-        weatherNightSnowIcon = Application.loadResource(Rez.Drawables.weather_night_snow) as BitmapResource;
-        weatherDaySleetIcon = Application.loadResource(Rez.Drawables.weather_day_sleet) as BitmapResource;
-        weatherNightSleetIcon = Application.loadResource(Rez.Drawables.weather_night_sleet) as BitmapResource;
-        weatherDayRainThunderIcon = Application.loadResource(Rez.Drawables.weather_day_rain_thunder) as BitmapResource;
-        weatherNightRainThunderIcon = Application.loadResource(Rez.Drawables.weather_night_rain_thunder) as BitmapResource;
-        weatherDaySnowThunderIcon = Application.loadResource(Rez.Drawables.weather_day_snow_thunder) as BitmapResource;
-        weatherNightSnowThunderIcon = Application.loadResource(Rez.Drawables.weather_night_snow_thunder) as BitmapResource;
+        weather2SunIcon = Application.loadResource(Rez.Drawables.weather2_sun) as BitmapResource;
+        weather2PartlySunnyIcon = Application.loadResource(Rez.Drawables.weather2_partly_sunny) as BitmapResource;
+        weather2CloudIcon = Application.loadResource(Rez.Drawables.weather2_cloud) as BitmapResource;
+        weather2RainIcon = Application.loadResource(Rez.Drawables.weather2_rain) as BitmapResource;
+        weather2SnowIcon = Application.loadResource(Rez.Drawables.weather2_snow) as BitmapResource;
+        weather2StormIcon = Application.loadResource(Rez.Drawables.weather2_storm) as BitmapResource;
+        weather2HazeIcon = Application.loadResource(Rez.Drawables.weather2_haze) as BitmapResource;
+        weather2HailIcon = Application.loadResource(Rez.Drawables.weather2_hail) as BitmapResource;
+        weather2TornadoIcon = Application.loadResource(Rez.Drawables.weather2_tornado) as BitmapResource;
         setLayout(Rez.Layouts.WatchFace(dc));
     }
 
@@ -159,39 +125,33 @@ class XLWatchFace955View extends WatchUi.WatchFace {
 
         // Weather
         var currentWeather = Weather.getCurrentConditions();
-        var weatherIcon = weatherDayClearIcon; // по умолчанию
+        var weatherIcon = weather2SunIcon;
         if (currentWeather != null) {
             var weatherLabel = View.findDrawableById("WeatherLabel") as Text;
             weatherLabel.setText(currentWeather.temperature.format("%d") + "°C");
             var cond = currentWeather.condition;
             if (cond == Weather.CONDITION_CLEAR || cond == Weather.CONDITION_FAIR || cond == Weather.CONDITION_MOSTLY_CLEAR || cond == Weather.CONDITION_PARTLY_CLEAR) {
-                weatherIcon = weatherDayClearIcon;
-            } else if (cond == Weather.CONDITION_PARTLY_CLOUDY || cond == Weather.CONDITION_MOSTLY_CLOUDY || cond == Weather.CONDITION_THIN_CLOUDS) {
-                weatherIcon = weatherDayPartialCloudIcon;
-            } else if (cond == Weather.CONDITION_CLOUDY || cond == Weather.CONDITION_CLOUDY_CHANCE_OF_RAIN || cond == Weather.CONDITION_CLOUDY_CHANCE_OF_SNOW || cond == Weather.CONDITION_CLOUDY_CHANCE_OF_RAIN_SNOW) {
-                weatherIcon = weatherCloudyIcon;
-            } else if (cond == Weather.CONDITION_RAIN || cond == Weather.CONDITION_SHOWERS || cond == Weather.CONDITION_SCATTERED_SHOWERS || cond == Weather.CONDITION_LIGHT_RAIN || cond == Weather.CONDITION_HEAVY_RAIN || cond == Weather.CONDITION_LIGHT_SHOWERS || cond == Weather.CONDITION_HEAVY_SHOWERS || cond == Weather.CONDITION_CHANCE_OF_SHOWERS || cond == Weather.CONDITION_DRIZZLE) {
-                weatherIcon = weatherRainIcon;
-            } else if (cond == Weather.CONDITION_RAIN_SNOW || cond == Weather.CONDITION_LIGHT_RAIN_SNOW || cond == Weather.CONDITION_HEAVY_RAIN_SNOW || cond == Weather.CONDITION_CHANCE_OF_RAIN_SNOW) {
-                weatherIcon = weatherSleetIcon;
-            } else if (cond == Weather.CONDITION_SNOW || cond == Weather.CONDITION_LIGHT_SNOW || cond == Weather.CONDITION_HEAVY_SNOW || cond == Weather.CONDITION_CHANCE_OF_SNOW || cond == Weather.CONDITION_FLURRIES) {
-                weatherIcon = weatherSnowIcon;
-            } else if (cond == Weather.CONDITION_WINTRY_MIX || cond == Weather.CONDITION_FREEZING_RAIN || cond == Weather.CONDITION_ICE || cond == Weather.CONDITION_ICE_SNOW) {
-                weatherIcon = weatherSleetIcon;
-            } else if (cond == Weather.CONDITION_FOG || cond == Weather.CONDITION_MIST || cond == Weather.CONDITION_HAZE || cond == Weather.CONDITION_HAZY || cond == Weather.CONDITION_DUST || cond == Weather.CONDITION_SMOKE || cond == Weather.CONDITION_VOLCANIC_ASH) {
-                weatherIcon = weatherFogIcon;
-            } else if (cond == Weather.CONDITION_THUNDERSTORMS || cond == Weather.CONDITION_SCATTERED_THUNDERSTORMS || cond == Weather.CONDITION_CHANCE_OF_THUNDERSTORMS || cond == Weather.CONDITION_SQUALL) {
-                weatherIcon = weatherRainThunderIcon;
-            } else if (cond == Weather.CONDITION_TORNADO || cond == Weather.CONDITION_HURRICANE || cond == Weather.CONDITION_TROPICAL_STORM) {
-                weatherIcon = weatherTornadoIcon;
-            } else if (cond == Weather.CONDITION_WINDY) {
-                weatherIcon = weatherWindIcon;
+                weatherIcon = weather2SunIcon;
+            } else if (cond == Weather.CONDITION_PARTLY_CLOUDY || cond == Weather.CONDITION_MOSTLY_CLOUDY) {
+                weatherIcon = weather2PartlySunnyIcon;
+            } else if (cond == Weather.CONDITION_CLOUDY) {
+                weatherIcon = weather2CloudIcon;
+            } else if (cond == Weather.CONDITION_RAIN || cond == Weather.CONDITION_SCATTERED_SHOWERS || cond == Weather.CONDITION_LIGHT_RAIN || cond == Weather.CONDITION_HEAVY_RAIN || cond == Weather.CONDITION_LIGHT_SHOWERS || cond == Weather.CONDITION_SHOWERS || cond == Weather.CONDITION_HEAVY_SHOWERS || cond == Weather.CONDITION_CHANCE_OF_SHOWERS || cond == Weather.CONDITION_DRIZZLE || cond == Weather.CONDITION_UNKNOWN_PRECIPITATION) {
+                weatherIcon = weather2RainIcon;
+            } else if (cond == Weather.CONDITION_SNOW || cond == Weather.CONDITION_LIGHT_SNOW || cond == Weather.CONDITION_HEAVY_SNOW) {
+                weatherIcon = weather2SnowIcon;
+            } else if (cond == Weather.CONDITION_THUNDERSTORMS || cond == Weather.CONDITION_SCATTERED_THUNDERSTORMS) {
+                weatherIcon = weather2StormIcon;
+            } else if (cond == Weather.CONDITION_WINTRY_MIX || cond == Weather.CONDITION_RAIN_SNOW || cond == Weather.CONDITION_LIGHT_RAIN_SNOW || cond == Weather.CONDITION_HEAVY_RAIN_SNOW) {
+                weatherIcon = weather2SnowIcon;
+            } else if (cond == Weather.CONDITION_FOG || cond == Weather.CONDITION_MIST || cond == Weather.CONDITION_HAZY || cond == Weather.CONDITION_HAZE) {
+                weatherIcon = weather2HazeIcon;
             } else if (cond == Weather.CONDITION_HAIL) {
-                weatherIcon = weatherSnowThunderIcon;
-            } else if (cond == Weather.CONDITION_SAND || cond == Weather.CONDITION_SANDSTORM) {
-                weatherIcon = weatherWindIcon;
-            } else if (cond == Weather.CONDITION_UNKNOWN || cond == Weather.CONDITION_UNKNOWN_PRECIPITATION) {
-                weatherIcon = weatherOvercastIcon;
+                weatherIcon = weather2HailIcon;
+            } else if (cond == Weather.CONDITION_TORNADO) {
+                weatherIcon = weather2TornadoIcon;
+            } else if (cond == Weather.CONDITION_WINDY) {
+                // Нет иконки для WINDY, ничего не делаем
             }
         }
 
@@ -208,7 +168,7 @@ class XLWatchFace955View extends WatchUi.WatchFace {
         dc.drawBitmap(110, 175, imageFootsteps );
         dc.drawBitmap(120, 17, personIcon );
 
-        dc.drawBitmap(180, 60, weatherIcon );
+        dc.drawBitmap(170, 48, weatherIcon );
     }
 
     // Called when this View is removed from the screen. Save the

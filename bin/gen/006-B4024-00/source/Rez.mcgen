@@ -9,38 +9,23 @@ module Rez {
         (:initialized) var footsteps as ResourceId;
         (:initialized) var battery as ResourceId;
         (:initialized) var person as ResourceId;
-        (:initialized) var weather_day_clear as ResourceId;
-        (:initialized) var weather_night_clear as ResourceId;
-        (:initialized) var weather_cloudy as ResourceId;
-        (:initialized) var weather_overcast as ResourceId;
-        (:initialized) var weather_rain as ResourceId;
-        (:initialized) var weather_rain_thunder as ResourceId;
-        (:initialized) var weather_snow as ResourceId;
-        (:initialized) var weather_snow_thunder as ResourceId;
-        (:initialized) var weather_sleet as ResourceId;
-        (:initialized) var weather_fog as ResourceId;
-        (:initialized) var weather_mist as ResourceId;
-        (:initialized) var weather_thunder as ResourceId;
-        (:initialized) var weather_tornado as ResourceId;
-        (:initialized) var weather_wind as ResourceId;
-        (:initialized) var weather_day_partial_cloud as ResourceId;
-        (:initialized) var weather_night_partial_cloud as ResourceId;
-        (:initialized) var weather_day_rain as ResourceId;
-        (:initialized) var weather_night_rain as ResourceId;
-        (:initialized) var weather_day_snow as ResourceId;
-        (:initialized) var weather_night_snow as ResourceId;
-        (:initialized) var weather_day_sleet as ResourceId;
-        (:initialized) var weather_night_sleet as ResourceId;
-        (:initialized) var weather_day_rain_thunder as ResourceId;
-        (:initialized) var weather_night_rain_thunder as ResourceId;
-        (:initialized) var weather_day_snow_thunder as ResourceId;
-        (:initialized) var weather_night_snow_thunder as ResourceId;
+        (:initialized) var weather2_sun as ResourceId;
+        (:initialized) var weather2_partly_sunny as ResourceId;
+        (:initialized) var weather2_cloud as ResourceId;
+        (:initialized) var weather2_rain as ResourceId;
+        (:initialized) var weather2_snow as ResourceId;
+        (:initialized) var weather2_storm as ResourceId;
+        (:initialized) var weather2_haze as ResourceId;
+        (:initialized) var weather2_hail as ResourceId;
+        (:initialized) var weather2_tornado as ResourceId;
+        (:initialized) var weather2_partly_moon as ResourceId;
+        (:initialized) var weather2_moon as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
     } // Drawables
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_13112917331521891666 = new Background();
+            var rez_cmp_local_custom_drawable_21425427916490759587 = new Background();
 
             var rez_cmp_local_text_BatteryLabel = new WatchUi.Text({:identifier=>"BatteryLabel", :color=>Graphics.COLOR_BLACK, :locX=>100, :locY=>220, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
@@ -60,7 +45,7 @@ module Rez {
 
             var rez_cmp_local_text_WeatherLabel = new WatchUi.Text({:identifier=>"WeatherLabel", :color=>Graphics.COLOR_BLACK, :locX=>200, :locY=>100, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
-            return [rez_cmp_local_custom_drawable_13112917331521891666, rez_cmp_local_text_BatteryLabel, rez_cmp_local_text_BatteryDays, rez_cmp_local_text_DayLabel, rez_cmp_local_text_TimeLabel, rez_cmp_local_text_StepsLabel, rez_cmp_local_text_DistanceLabel, rez_cmp_local_text_BodyBatteryLabel, rez_cmp_local_text_StressLabel, rez_cmp_local_text_WeatherLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_21425427916490759587, rez_cmp_local_text_BatteryLabel, rez_cmp_local_text_BatteryDays, rez_cmp_local_text_DayLabel, rez_cmp_local_text_TimeLabel, rez_cmp_local_text_StepsLabel, rez_cmp_local_text_DistanceLabel, rez_cmp_local_text_BodyBatteryLabel, rez_cmp_local_text_StressLabel, rez_cmp_local_text_WeatherLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
